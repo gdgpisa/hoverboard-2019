@@ -14,7 +14,6 @@
 <link rel="import" href="../styles/shared-styles.html">
 <link rel="import" href="../js-wrappers/g-plusone.html">
 <link rel="import" href="../behaviors/share-behavior.html">
-<link rel="import" href="mailchimp-subscribe.html">
 
 
 <dom-module id="footer-block">
@@ -42,9 +41,9 @@
       }
 
       .gdg-logo {
-        margin: 10px 10px 0 0;
-        height: 24px;
-        width: 120px;
+        margin: 5px 5px 0 0;
+        height: 80px;
+        width: 200px;
         display: block;
       }
 
@@ -207,24 +206,15 @@
               {% endfor %}
             </div>
           </div>
-          <div class="subscribe">
-            <div class="link-block-title">{$ subscribe $}</div>
-            <span>{$ subscribeNote $}</span>
-            <mailchimp-subscribe
-              app="[[app]]"
-              url="{$ mailchimp.url $}"
-              name="{$ mailchimp.name $}"
-            ></mailchimp-subscribe>
-          </div>
         </nav>
       </div>
       <div class="footer-content footer-bottom">
         <!-- Please do NOT delete next block -->
         <div class="copyright">
-          &copy; 2016 Based on <a href="https://github.com/gdg-x/hoverboard" target="_blank" rel="noopener noreferrer">Project
+          &copy; 2017 Based on <a href="https://github.com/gdg-x/hoverboard" target="_blank" rel="noopener noreferrer">Project
           Hoverboard</a>. Designed and created by <a href="http://o.zasadnyy.com/" target="_blank" rel="noopener noreferrer">Oleh
           Zasadnyy</a> &middot;
-          <a href="http://lviv.gdg.org.ua" target="_blank" rel="noopener noreferrer">GDG Lviv</a>
+          <a href="http://gdgpisa.it" target="_blank" rel="noopener noreferrer">GDG Pisa</a>
         </div>
         <div class="gplus">
           <g:plusone

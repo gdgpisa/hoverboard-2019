@@ -9,7 +9,6 @@
 <link rel="import" href="../styles/shared-styles.html">
 <link rel="import" href="animatable-content.html">
 
-
 <dom-module id="header-content">
 
   <template>
@@ -129,7 +128,7 @@
           <div class="container" center-justified>
             <div class="home-wrapper">
               <iron-image class="logo" src="/images/logo-light.svg" sizing="contain"
-                          alt="GDG DevFest Ukraine 2016"></iron-image>
+                          alt="DevFest Pisa"></iron-image>
               <h3 class="dates">{$ dates $}</h3>
               <h2 class="motto">{$ motto $}</h2>
               {% if pages.home.headerSettings.video %}
@@ -140,6 +139,7 @@
               {% endif %}
               <div class="action-buttons">
                 <paper-button class="primary" on-tap="_scrollToTickets" raised>{$ buyTicket $}</paper-button>
+                <paper-button class="primary" on-tap="_openCfp" raised>{$ becomeASpeaker $}</paper-button>
               </div>
             </div>
           </div>
@@ -198,6 +198,10 @@
             behavior: 'smooth',
             target: HOVERBOARD.Elements.Scroller
           });
+        },
+
+        _openCfp: function () {
+          window.open('http://bit.ly/dfpi17-c4p', '_blank');
         }
 
       });
