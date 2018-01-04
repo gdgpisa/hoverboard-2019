@@ -98,8 +98,9 @@
   "gallery": {
     "albumUrl": "https://www.meetup.com/GDG-Pisa/photos/",
     "photos": {
-      "big": "/images/backgrounds/homephoto_1.jpg",
+      "big": "/images/backgrounds/homephoto_0.jpg",
       "small": [
+        "/images/backgrounds/homephoto_1.jpg",
         "/images/backgrounds/homephoto_2.jpg",
         "/images/backgrounds/homephoto_3.jpg"
       ]

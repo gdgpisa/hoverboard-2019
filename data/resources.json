@@ -1,5 +1,5 @@
 {
-  "title": "GDG DevFest Pisa",
+  "title": "GDG DevFest Pisa 0.1",
   "description": "The biggest Google tech conference in Tuscany carefully crafted for you by the GDG Pisa community! All about Android, Web, Cloud and Machine Learning!",
   "keywords": "event, gdg, gde, devfest, google, programming, android, chrome, polymer, developers, web, cloud, androiddev",
   "dates": "March 10, 2018",
@@ -7,7 +7,7 @@
   "motto": "Be a GDG. Be a Hero!",
   "playIcon": "",
   "c4p": "Become a speaker",
-  "buyTicket": "Buy ticket",
+  "buyTicket": "Get a ticket",
   "becomeASpeaker": "Become a Speaker",
   "backToTop": "Back to top",
   "subscribe": "Subscribe",
@@ -33,10 +33,10 @@
   "locationDescription": "Directly in the center of Pisa, just a few meter next to the University Computer Science department",
   "locationAddress": "Largo Bruno Pontecorvo, 3",
   "organizerTitle": "Organizer",
-  "aboutOrganizers": "<a href='http://gdgpisa.it' target='_blank'>GDG Pisa</a> with support of TODO",
+  "aboutOrganizers": "DevFest Pisa 0.1 is orgnized by <a href='http://gdgpisa.it' target='_blank'>GDG Pisa</a> with support of the whole community.",
   "openTeamPage": "Open team page",
-  "whatIsGdg": "What is GDG?",
-  "aboutGdg": "Google Developers Group (GDG) - is an open and volunteer geek community who create exciting projects and share experience about Google technologies with a passion",
+  "whatIsGdg": "What is a GDG?",
+  "aboutGdg": "A Google Developers Group (GDG) - is an open and volunteer geek community who create exciting projects and share experience about Google technologies with a passion",
   "readMore": "Read more",
   "copyLink": "Copy link",
   "filteredBy": "filtered by",
@@ -94,8 +94,8 @@
           "newTab": true
         },
         {
-          "text": "TODO Media Kit",
-          "url": "http://gdgpisa.it",
+          "text": "Media Kit",
+          "url": "http://bit.ly/dfpi17-mediakit",
           "newTab": true
         }
       ]
@@ -105,7 +105,7 @@
     "links": [
       {
         "text": "pisagdg@gmail.com",
-        "url": "mailto:pisagdg@gmail.com"
+        "url": "mailto:pisagdg+devfest@gmail.com"
       }
     ]
   },
@@ -113,20 +113,16 @@
   "teamPageText": "Google is known all around the world. Everyone is 'googling', checking on 'maps' and communicating in 'gmail'. For simple users, they are services that just works, but not for us. Developers see much more: APIs, scalability issues, complex technology stacks. And that is what GDG is about.<br><br> [Google Developers Group (GDG) Pisa](http://gdgpisa.it/) - is open and volunteer geek community who create exciting projects and share experience about Google technologies with a passion.<br><br> Our goal is to organize space to connect the best industry experts with Italian audience to boost development of IT.",
   "statistics": [
     {
-      "counter": 250,
-      "caption": "Attendees"
+      "counter": "800+",
+      "caption": "Total Attendees"
     },
     {
-      "counter": 1,
-      "caption": "Day"
+      "counter": 14,
+      "caption": "Organized Events"
     },
     {
-      "counter": 10,
-      "caption": "Sessions"
-    },
-    {
-      "counter": 2,
-      "caption": "Tracks"
+      "counter": 134,
+      "caption": "Community Members"
     }
   ]
 }
