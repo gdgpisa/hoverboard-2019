@@ -1,6 +1,6 @@
-DevFest Pisa 0.1 has been announced! The first edition of this conference will take on **March 10th** in the city of Lviv.
+DevFest Pisa 0.1 has been announced! The first edition of this conference will take on **March 10th** in Pisa.
 
-That means that it is time to open [call for talk submissions](http://bit.ly/dfpi17-c4p). If you are passionate about your work and want to share your experience with the biggest tech audience in Italy, you knocked on the right door.
+That means that it is time to open [call for talk submissions](http://bit.ly/dfpi17-c4p). If you are passionate about your work and want to share your experience with the tech audience in Italy, you knocked on the right door.
 
 To keep up this year, we decided to focus on the content. **We’re looking for speakers like you**, who are ready to rock the stage and deliver the best talk or workshop in the field.
 <div class="text-center">
@@ -28,7 +28,7 @@ Our team prepared set of interesting topics in but if you have any cool idea you
 * Kotlin
 * RxJava
 * Data Binding
-* Testing and Architecture best practices (MVP, MVVP, Clean Architecture)
+* Testing and Architecture best practices (MVP, MVVP, MVI, Clean Architecture)
 * Android Things
 
 #### Web
@@ -45,8 +45,6 @@ Our team prepared set of interesting topics in but if you have any cool idea you
 
 <br/>
 
-**Call for Papers will stay open until February 15, 2018.** Don’t miss out :)
-
 <div class="text-center">
 <a href="http://bit.ly/dfpi17-c4p" target="_blank" class="style-scope header-content" style="color: white; ">
   <paper-button class="primary style-scope header-content x-scope paper-button-0" raised="" role="button" tabindex="0" animated="" aria-disabled="false" elevation="1">Submit a proposal</paper-button>
@@ -56,7 +54,7 @@ Our team prepared set of interesting topics in but if you have any cool idea you
 
 **Please note:** There is no guarantee that a submission will be put onto the conference agenda! The program committee picks the most interesting talk proposals and informs the selected submitters as soon as possible.
 
-Any questions? Email organizers at [pisagdg@gmail.com](mailto:pisagdg@gmail.com)
+Any questions? Email organizers at [pisagdg@gmail.com](mailto:pisagdg+devfest@gmail.com) or reach out on our social channels!
 
 
 

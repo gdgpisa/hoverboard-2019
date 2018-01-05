@@ -1,20 +1,20 @@
 [
   {
     "id": "devfest-pisa-announced",
-    "title": "DevFest Pisa 0.1 Announced",
-    "posted": "2017-11-01",
+    "title": "GDG DevFest Pisa 0.1 Announced",
+    "posted": "2018-01-01",
     "primaryColor": "#00BCD4",
     "secondaryColor": "#00BCD4",
     "image": "/images/posts/announce.jpg",
-    "brief": "GDG Pisa is proud to announce the first DevFest in Tuscany!"
+    "brief": "GDG Pisa is proud to announce the first DevFest in Pisa! This is going to be a 100% community based events, don't miss the opportunity to participate."
   },
   {
     "id": "c4p-time",
     "title": "Call for Papers Time",
-    "posted": "2017-11-10",
+    "posted": "2018-01-10",
     "primaryColor": "#3F51B5",
     "secondaryColor": "#3F51B5",
     "image": "/images/posts/c4p-is-open.jpg",
-    "brief": "DevFest Pisa announced! That means that it is time to open call for talk submissions!."
+    "brief": "DevFest Pisa announced! That means that it is time to open call for talk submissions!. We are looking for awesome talks on everything Google-related, don't be shy!"
   }
 ]
