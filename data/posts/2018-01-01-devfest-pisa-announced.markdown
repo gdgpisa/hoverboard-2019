@@ -1,7 +1,7 @@
 GDG Pisa is proud to announce the first **DevFest Pisa**, which is going to be the biggest Google related event in Tuscany carefully crafted by GDG community! The event will take place on **10th of March** in **Pisa**.
 
 <div class="text-center">
-<a href="https://gdgpisa.it/" target="_blank" class="style-scope header-content" style="color: white; ">
+<a href="http://bit.ly/dfpi17-tickets" target="_blank" class="style-scope header-content" style="color: white; ">
   <paper-button class="primary style-scope header-content x-scope paper-button-0" raised="" role="button" tabindex="0" animated="" aria-disabled="false" elevation="1">Get a ticket</paper-button>
 </a>
 </div>
@@ -29,7 +29,7 @@ The DevFest will take place on the **10th of March**, the whole day. Further det
 The event will take place in **Largo Bruno Pontecorvo**, in the rooms near the Department of Computer Science (University of Pisa).
 
 <div class="text-center">
-<a href="https://gdgpisa.it/" target="_blank" class="style-scope header-content" style="color: white; ">
+<a href="http://bit.ly/dfpi17-tickets" target="_blank" class="style-scope header-content" style="color: white; ">
   <paper-button class="primary style-scope header-content x-scope paper-button-0" raised="" role="button" tabindex="0" animated="" aria-disabled="false" elevation="1">Get a ticket</paper-button>
 </a>
 </div>
