@@ -3,6 +3,7 @@
 <link rel="import" href="../behaviors/cascaded-behavior.html">
 <link rel="import" href="../behaviors/page-behavior.html">
 <link rel="import" href="../elements/statistics-block.html">
+<link rel="import" href="../elements/static-banner-home.html">
 {% if featuredInHome %}
 <link rel="import" href="../elements/featured-people.html">
 {% endif %}
@@ -28,6 +29,7 @@
 
   <template>
 
+    <static-banner-home app="{{app}}" cascaded></static-banner-home>
     <statistics-block app="{{app}}" cascaded></statistics-block>
     <featured-people app="{{app}}" people="{{people}}" cascaded></featured-people>
     {% if videosSessionsUrl %}

@@ -28,8 +28,9 @@
     "locale": "en-US",
     "blog": {"month": "short", "day": "numeric", "year": "numeric"}
   },
-  "tweetsSource": "https://devfest-pisa-tweets.herokuapp.com/searchjson.php?q=%23devfest",
+  "tweetsSource": "https://devfest-pisa-tweets.herokuapp.com/searchjson.php?q=%23devfestpisa",
   "hashtag": "devfestpisa",
+  "featuredInHome": true,
   "partnershipProposition": "http://bit.ly/dfpi17-partnership",
   "enableSessionsRating": true,
   "navigation": [
