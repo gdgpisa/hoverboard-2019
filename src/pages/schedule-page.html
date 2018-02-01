@@ -172,13 +172,17 @@
         },
 
         _queryParamsChanged: function (params, sessions) {
+          console.info("selected" + this.selected);
           if (this.selected) {
+            console.info("sessionId" + params.sessionId);
             if (params.sessionId) {
               var session = this.sessions[params.sessionId];
-              if (!session) {
-                this._resetSessionIdParam();
-                return;
-              }
+              console.info("session" + session);
+              // Disabling this to patch deep linking
+              // if (!session) {
+              //   this._resetSessionIdParam();
+              //   return;
+              // }
 
               window.requestAnimationFrame(function () {
                 this._selectedSession = session;
