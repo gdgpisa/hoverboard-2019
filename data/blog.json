@@ -16,5 +16,14 @@
     "secondaryColor": "#3F51B5",
     "image": "/images/posts/c4p-is-open.jpg",
     "brief": "DevFest Pisa announced! That means that it is time to open call for talk submissions!. We are looking for awesome talks on everything Google-related, don't be shy!"
+  },
+  {
+    "id": "first-speakers-announced",
+    "title": "First speakers announced!",
+    "posted": "2018-02-01",
+    "primaryColor": "#9C27B0",
+    "secondaryColor": "#9C27B0",
+    "image": "/images/posts/first-speaker-announced.jpg",
+    "brief": "We are happy to announce our first rockstar speakers!"
   }
 ]
