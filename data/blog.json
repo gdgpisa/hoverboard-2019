@@ -25,5 +25,14 @@
     "secondaryColor": "#9C27B0",
     "image": "/images/posts/first-speaker-announced.jpg",
     "brief": "We are happy to announce our first rockstar speakers!"
+  },
+  {
+    "id": "last-days-for-c4p",
+    "title": "Last days to apply for our C4P",
+    "posted": "2018-02-08",
+    "primaryColor": "#3F51B5",
+    "secondaryColor": "#3F51B5",
+    "image": "/images/posts/last-days-for-c4p.jpg",
+    "brief": "Looks like time is running really fast and our DevFest Pisa 0.1 is just behind the corner! Less then one month and we'll be all enjoying this amazing community experience together!"
   }
 ]
