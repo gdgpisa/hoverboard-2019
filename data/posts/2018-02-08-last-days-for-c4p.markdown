@@ -1,6 +1,6 @@
 Looks like time is running really fast and our DevFest is just **behind the corner**! Less then one month and we'll be all enjoying this amazing community experience together!
 
-You probably already saw our [rockstar speakers](/blog/posts/first-speakers-announced/) 🚀 announcement last week, but our [Call for paper is not closed yet](http://bit.ly/dfpi17-c4p)! Do you want to join our DevFest as a speaker? The C4P is closing on **February the 10th**! You still have a couple of days to wrap up your abstract and submit your proposal?
+You probably already saw our [rockstar speakers](/blog/posts/first-speakers-announced/) 🚀 announcement last week, but our [Call for paper is not closed yet](http://bit.ly/dfpi17-c4p)! Do you want to join our DevFest as a speaker? The C4P is closing on **February the 10th**! You still have a couple of days to wrap up your abstract and submit your proposal.
 
 <div class="text-center">
 <a href="http://bit.ly/dfpi17-c4p" target="_blank" class="style-scope header-content" style="color: white; ">
