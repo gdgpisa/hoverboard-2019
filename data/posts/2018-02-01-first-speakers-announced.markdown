@@ -8,7 +8,7 @@ Today we are happy to announce our first six **rockstar speakers** 🎉! We are 
 * [**Fabio Collini**](https://devfest.gdgpisa.it/speakers/4/) (Nana Bianca & Google Developer Expert for Android) - [From Java to Kotlin beyond Alt+Shift+Cmd+K](https://devfest.gdgpisa.it/schedule/day1?sessionId=148)
 * [**James Mark Coggan**](https://devfest.gdgpisa.it/speakers/6/) (My Drive) - [How to test your Android Things code in a clean way with Kotlin](https://devfest.gdgpisa.it/schedule/day1?sessionId=150)
 * [**Francesco Romani**](https://devfest.gdgpisa.it/speakers/2/) (Red Hat) - [Journey to the Center of the Containers](https://devfest.gdgpisa.it/schedule/day1?sessionId=146)
-* [**Torello Querci**](https://devfest.gdgpisa.it/speakers/3/) (Negens) - [Introduzione a Kubernetes](https://devfest.gdgpisa.it/schedule/day1?sessionId=147)
+* [**Torello Querci**](https://devfest.gdgpisa.it/speakers/3/) (Sighup) - [Introduzione a Kubernetes](https://devfest.gdgpisa.it/schedule/day1?sessionId=147)
 * [**Michel Murabito**](https://devfest.gdgpisa.it/speakers/1/) (Spindox) - [Run Fast with Modern Javascript](https://devfest.gdgpisa.it/schedule/day1?sessionId=145)
 
 You can check out speakers bio and sessions description in the [Speakers](/speakers) and [Schedule](/schedule) pages.
