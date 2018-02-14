@@ -98,15 +98,6 @@
     <div class="container">
       <h4 class="heading">{$ featuredSponsorsTitle $}</h4>
       <div class="sponsors-wrapper">
-        <!-- <template is="dom-repeat" items="[[featuredSponsors]]" as="sponsor">
-            <iron-image
-              class="logo"
-              src="[[sponsor.logoUrlWhite]]"
-              sizing="cover"
-            ></iron-image>
-            <h3 class="name">[[sponsor.name]]</h3>
-            <h4 class="company">[[sponsor.title]]</h4>
-        </template> -->
         <template is="dom-repeat" items="[[app.partners]]" as="sponsor" filter="isSponsorFeatured">
             <template is="dom-repeat" items="[[sponsor.logos]]" as="logo" >
               <div class="sponsor">
