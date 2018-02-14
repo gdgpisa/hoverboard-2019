@@ -7,6 +7,7 @@
 {% if featuredInHome %}
 <link rel="import" href="../elements/featured-people.html">
 {% endif %}
+<link rel="import" href="../elements/featured-sponsors.html">
 {% if videosSessionsUrl %}
   <link rel="import" href="../elements/featured-videos.html">
 {% endif %}
@@ -37,6 +38,7 @@
     {% if callToAction %}
       <call-to-action app="{{app}}" cascaded></call-to-action>
     {% endif %}
+    <featured-sponsors app="{{app}}" cascaded></featured-sponsors>
     <about-block app="{{app}}" cascaded></about-block>
     {% if gallery %}
       <photo-block app="{{app}}" cascaded></photo-block>
@@ -72,17 +74,26 @@
             type: Array
           },
 
+          sponsors: {
+            type: Array,
+            observer: '_sponsorsChanged'
+          },
+
           logos: {
             type: Array
           },
 
           videos: {
             type: Array
-          }
+          },
         },
 
         ready: function() {
           this.updateCascadedNodes();
+        },
+
+        _sponsorsChanged: function () {
+          console.info("Called from home")
         }
 
       });

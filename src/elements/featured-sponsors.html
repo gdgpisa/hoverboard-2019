@@ -1,0 +1,162 @@
+<link rel="import" href="../../bower_components/polymer/polymer.html">
+
+<link rel="import" href="../../bower_components/iron-image/iron-image.html">
+<link rel="import" href="../../bower_components/iron-flex-layout/iron-flex-layout.html">
+
+<link rel="import" href="../../bower_components/paper-button/paper-button.html">
+
+<link rel="import" href="../styles/shared-styles.html">
+<link rel="import" href="../behaviors/utils-behavior.html">
+
+
+<dom-module id="featured-sponsors">
+
+  <template>
+
+    <style include="shared-styles">
+      :host {
+        display: block;
+        background: var(--default-primary-color);
+        color: var(--text-primary-color);
+      }
+
+      .container {
+        padding-bottom: 30px;
+        text-align: center;
+      }
+
+      .all-partners-button {
+        margin-top: 30px;
+        background: #fff;
+        color: var(--primary-text-color);
+      }
+
+      .sponsors-wrapper {
+        @apply(--layout-horizontal);
+        @apply(--layout-wrap);
+        margin-top: 40px;
+      }
+
+      .sponsor {
+        @apply(--layout-vertical);
+        @apply(--layout-center);
+        color: var(--primary-text-color);
+        width: 50%;
+      }
+
+      .logo {
+        height: 70px;
+        width: 70px;
+      }
+
+      .name {
+        margin-top: 5px;
+        padding: 0 16px;
+        line-height: .9;
+      }
+
+      .company {
+        margin-top: 4px;
+        padding: 0 16px;
+        display: block;
+        font-size: .7em;
+        line-height: 1;
+      }
+
+      .block-link {
+        margin-top: 25px;
+        display: block;
+        color: inherit;
+        font-size: .9em;
+      }
+
+      .company-logo {
+        margin: 5px auto;
+        width: 100px;
+        height: 60px;
+      }
+
+      @media (max-width: 600px) {
+        .sponsor:nth-child(1),
+        .sponsor:nth-child(2) {
+          margin-bottom: 40px;
+        }
+      }
+
+      @media (min-width: 601px) {
+        .photo {
+          height: 120px;
+          width: 120px;
+        }
+
+        .sponsor {
+          @apply(--layout-flex);
+        }
+      }
+    </style>
+
+    <div class="container">
+      <h4 class="heading">{$ featuredSponsorsTitle $}</h4>
+      <div class="sponsors-wrapper">
+        <!-- <template is="dom-repeat" items="[[featuredSponsors]]" as="sponsor">
+            <iron-image
+              class="logo"
+              src="[[sponsor.logoUrlWhite]]"
+              sizing="cover"
+            ></iron-image>
+            <h3 class="name">[[sponsor.name]]</h3>
+            <h4 class="company">[[sponsor.title]]</h4>
+        </template> -->
+        <template is="dom-repeat" items="[[app.partners]]" as="sponsor" filter="isSponsorFeatured">
+            <template is="dom-repeat" items="[[sponsor.logos]]" as="logo" >
+              <div class="sponsor">
+                <iron-image
+                  class$="photo [[block.logosClass]]"
+                  src="[[logo.logoWhiteUrl]]"
+                  width$="{{logo.width}}"
+                  height$="{{logo.height}}"
+                  sizing="contain"
+                  preload fade
+                ></iron-image>
+                <h3>[[logo.name]]</h3>
+                <h4>[[sponsor.title]]</h4>
+              </div>
+            </template>
+        </template>
+      </div>
+      <div>
+        <paper-button class="all-partners-button" on-tap="_scrollToPartners" raised>{$ featuredSponsorsViewAll $}</paper-button>
+      </div>
+    </div>
+
+  </template>
+
+  <script>
+    (function () {
+      'use strict';
+
+      Polymer({
+
+        is: 'featured-sponsors',
+
+        behaviors: [
+          HOVERBOARD.UtilsBehavior
+        ],
+
+        isSponsorFeatured: function (item) {
+          return item.featured
+        },
+
+        _scrollToPartners: function () {
+          Polymer.AppLayout.scroll({
+            top: HOVERBOARD.Elements.Logos.getBoundingClientRect().top,
+            behavior: 'smooth',
+            target: HOVERBOARD.Elements.Scroller
+          });
+        },
+      });
+
+    }());
+  </script>
+
+</dom-module>
