@@ -4,7 +4,7 @@
   "keywords": "event, gdg, gde, devfest, google, programming, android, chrome, polymer, developers, web, cloud, androiddev",
   "dates": "March 10, 2018",
   "locationAddressShort": "Pisa, Italy",
-  "motto": "Be a GDG. Be a Hero!",
+  "motto": "An entire day of tech talks, workshops, networking and community!",
   "playIcon": "",
   "c4p": "Become a speaker",
   "buyTicket": "Get a ticket",
@@ -119,11 +119,11 @@
       "caption": "Total Attendees"
     },
     {
-      "counter": 14,
+      "counter": 15,
       "caption": "Organized Events"
     },
     {
-      "counter": 134,
+      "counter": 151,
       "caption": "Community Members"
     }
   ]
