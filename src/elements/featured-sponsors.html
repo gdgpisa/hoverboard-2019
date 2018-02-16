@@ -139,11 +139,7 @@
         },
 
         _scrollToPartners: function () {
-          Polymer.AppLayout.scroll({
-            top: HOVERBOARD.Elements.Logos.getBoundingClientRect().top,
-            behavior: 'smooth',
-            target: HOVERBOARD.Elements.Scroller
-          });
+          HOVERBOARD.Elements.Logos.scrollIntoView({block: "start", behavior: "smooth"});
         },
       });
 
