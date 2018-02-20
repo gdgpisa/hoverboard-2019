@@ -1,6 +1,6 @@
 It's been 10 days since we closed our [call for paper](/blog/posts/last-days-for-c4p/) and our [organizing team](/team) worked really hard to prepare the final DevFest Agenda.
 
-We really want to **thank** all of you for your submissions! We received **more than 40** talk proposals. This is an incredible result for our community that is organizing this conference for the first time.
+We really want to **thank** all of **you for** your submissions! We received **more than 40 proposals**. This is an incredible result for our community that is organizing this conference for the first time.
 
 The [final agenda](/schedule) will land 🛬 later this week. But now, we are able to share other **five awesome speakers** that are appproaching our DevFest Pisa 0.1. We are so happy to talk about **#ai**, **#machinelearning**, **#python**, **#voiceui** and **#golang** with:
 
