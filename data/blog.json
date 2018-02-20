@@ -34,5 +34,14 @@
     "secondaryColor": "#3F51B5",
     "image": "/images/posts/last-days-for-c4p.jpg",
     "brief": "Looks like time is running really fast and our DevFest Pisa 0.1 is just behind the corner! Less then one month and we'll be all enjoying this amazing community experience together!"
+  },
+  {
+    "id": "more-speakers-are-joining",
+    "title": "More speakers are joining the Agenda!",
+    "posted": "2018-02-20",
+    "primaryColor": "#9C27B0",
+    "secondaryColor": "#9C27B0",
+    "image": "/images/posts/more-speakers-are-joining.jpg",
+    "brief": "It's been 10 days since we closed our call for paper and our organizing team worked really hard to prepare the final DevFest Agenda..."
   }
 ]
