@@ -138,8 +138,8 @@
                 </div>
               {% endif %}
               <div class="action-buttons">
+                <paper-button class="primary" style="background: #03A9F4; color: #fff;" on-tap="_openCfh" raised>Become a Helper</paper-button>
                 <paper-button class="primary" on-tap="_scrollToTickets" raised>{$ buyTicket $}</paper-button>
-                <!-- <paper-button class="primary" on-tap="_openCfp" raised>{$ becomeASpeaker $}</paper-button> -->
               </div>
             </div>
           </div>
@@ -200,8 +200,8 @@
           });
         },
 
-        _openCfp: function () {
-          window.open('http://bit.ly/dfpi17-c4p', '_blank');
+        _openCfh: function () {
+          window.open('http://bit.ly/dfpi17-volunteer', '_blank');
         }
 
       });

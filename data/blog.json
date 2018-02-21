@@ -43,5 +43,14 @@
     "secondaryColor": "#9C27B0",
     "image": "/images/posts/more-speakers-are-joining.jpg",
     "brief": "It's been 10 days since we closed our call for paper and our organizing team worked really hard to prepare the final DevFest Agenda..."
+  },
+  {
+    "id": "we-are-looking-for-helpers",
+    "title": "We are looking for helpers",
+    "posted": "2018-02-22",
+    "primaryColor": "#FFC107",
+    "secondaryColor": "#FFC107",
+    "image": "/images/posts/we-are-looking-for-helpers.jpg",
+    "brief": "TODO"
   }
 ]
