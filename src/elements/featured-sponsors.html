@@ -99,7 +99,7 @@
       <h4 class="heading">{$ featuredSponsorsTitle $}</h4>
       <div class="sponsors-wrapper">
         <template is="dom-repeat" items="[[app.partners]]" as="sponsor" filter="isSponsorFeatured">
-            <template is="dom-repeat" items="[[sponsor.logos]]" as="logo" >
+            <template is="dom-repeat" items="[[sponsor.logos]]" as="logo" filter="isNotStickerMule">
               <div class="sponsor">
                 <iron-image
                   class$="photo [[block.logosClass]]"
@@ -133,6 +133,10 @@
         behaviors: [
           HOVERBOARD.UtilsBehavior
         ],
+
+        isNotStickerMule: function (item) {
+          return item.name != "Sticker Mule";
+        },
 
         isSponsorFeatured: function (item) {
           return item.featured
