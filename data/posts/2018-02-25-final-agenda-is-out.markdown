@@ -11,7 +11,7 @@ Furthermore, other **four speakers** are joining our agenda to talk about **#mvp
 
 ## Get Involved!
 
-Do you want to be part of the DevFest organization? We are looking for **helpers** to give support during the event 🤝 All the details are here:
+Do you want to be part of the DevFest organization? We are **looking for helpers** to give support during the event 🤝 All the details are here:
 
 <div class="text-center">
 <a href="http://bit.ly/dfpi17-volunteer" target="_blank" class="style-scope header-content" style="color: white; ">
@@ -22,7 +22,7 @@ Do you want to be part of the DevFest organization? We are looking for **helpers
 
 ## Got your ticket?
 
-We happy to share that we have more than **200** tickets registered! Our last batch of tickets is finishing on **Eventbrite**! Don't forget to register! Tickets are **free** but registration is **required**.
+We happy to share that we have more than **200 tickets** registered! Our last batch of tickets is finishing on **Eventbrite**! Don't forget to register! Tickets are **free** but registration is **required**.
 
 <div class="text-center">
 <a href="http://bit.ly/dfpi17-tickets" target="_blank" class="style-scope header-content" style="color: white; ">
