@@ -2,7 +2,7 @@ It's been 10 days since we closed our [call for paper](/blog/posts/last-days-for
 
 We really want to **thank** all of **you for** your submissions! We received **more than 40 proposals**. This is an incredible result for our community that is organizing this conference for the first time.
 
-The [final agenda](/schedule) will land 🛬 later this week. But now, we are able to share other **five awesome speakers** that are appproaching our DevFest Pisa 0.1. We are so happy to talk about **#ai**, **#machinelearning**, **#python**, **#voiceui** and **#golang** with:
+The [final agenda](/schedule) will land 🛬 later this week. But now, we are able to share other **five awesome speakers** that are approaching our DevFest Pisa 0.1. We are so happy to talk about **#ai**, **#machinelearning**, **#python**, **#voiceui** and **#golang** with:
 
 * [Alfredo Morresi](https://devfest.gdgpisa.it/speakers/10/) (Google) - [Exploring Google Assistant and DialogFlow](https://devfest.gdgpisa.it/schedule/day1?sessionId=154)
 * [Francesco Romano](https://devfest.gdgpisa.it/speakers/7/) (GDG Cosenza) - [I robot guidano meglio di noi?](https://devfest.gdgpisa.it/schedule/day1?sessionId=151)

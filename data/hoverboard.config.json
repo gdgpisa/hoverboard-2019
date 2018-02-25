@@ -16,10 +16,10 @@
     "backgroundColor": "#F57C00"
   },
   "firebase": {
-    "name": "devfest-pisa",
-    "domain": "devfest-pisa.firebaseapp.com",
-    "database": "https://devfest-pisa.firebaseio.com",
-    "api": "AIzaSyBs9sxWezu6gCerM2Z30kOBaQS0GwdaIXg",
+    "name": "devfest-pisa-debug",
+    "domain": "devfest-pisa-debug.firebaseapp.com",
+    "database": "https://devfest-pisa-debug.firebaseio.com/",
+    "api": "AIzaSyCEzpJC3TEE2GXILeALBc5jHSVz71qtz5g",
     "userSessionsPath": "/userSessions",
     "ratingsPath": "/ratings",
     "indexedDbSession": "hoverboard"

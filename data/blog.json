@@ -52,5 +52,14 @@
     "secondaryColor": "#FFC107",
     "image": "/images/posts/we-are-looking-for-helpers.jpg",
     "brief": "La DevFest Pisa 0.1 è oramai alle porte! Ci teniamo a ricordare che la DevFest è organizzata interamente su **base volontaria**. Purtroppo non possiamo permetterci di *assumere* dipendenti che ci diano una mano durante l'evento..."
+  },
+  {
+    "id": "final-agenda-is-out",
+    "title": "Announcing the final agenda!",
+    "posted": "2018-02-25",
+    "primaryColor": "#9C27B0",
+    "secondaryColor": "#9C27B0",
+    "image": "/images/posts/final-agenda-is-out.jpg",
+    "brief": "As promised, we are now happy to announce the DevFest Pisa 0.1 final agenda 📅 ! We are so excited to have on-board 16 amazing speakers from all around the world!"
   }
 ]
