@@ -7,6 +7,7 @@
 <link rel="import" href="../../bower_components/paper-item/paper-icon-item.html">
 <link rel="import" href="../../bower_components/paper-item/paper-item-body.html">
 <link rel="import" href="../../bower_components/paper-card/paper-card.html">
+<link rel="import" href="../../bower_components/paper-button/paper-button.html">
 
 <link rel="import" href="../../bower_components/google-map/google-map.html">
 
@@ -153,12 +154,9 @@
               </paper-icon-item>
             </div>
             <div class="card-actions">
-              <a class="bottom-link"
-                 href="https://www.google.com/maps/dir/{$ location.pointer.latitude $},{$ location.pointer.longitude $}/@{$ location.pointer.latitude $},{$ location.pointer.longitude $},18z"
-                 target="_blank"
-                 rel="noopener noreferrer"
-              >
+              <a class="bottom-link" href="/location">
                 <paper-icon-button icon="icons:directions"></paper-icon-button>
+                <paper-button>How to get there?</paper-button>
               </a>
             </div>
           </div>
