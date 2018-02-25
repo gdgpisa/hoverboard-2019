@@ -1,0 +1,164 @@
+{
+  "url": "https://devfest.gdgpisa.it/",
+  "startDate": "2016-09-09T09:00:00+03:00",
+  "endDate": "2016-09-10T19:00:00+03:00",
+  "analytics": {
+    "prod": "UA-110815683-1",
+    "dev": "UA-110815683-1"
+  },
+  "organizer": {
+    "name": "GDG Pisa",
+    "twitter": "devfestpisa"
+  },
+  "webapp": {
+    "shortName": "DevFest Pisa",
+    "themeColor": "#F57C00",
+    "backgroundColor": "#F57C00"
+  },
+  "firebase": {
+    "name": "devfest-pisa-debug",
+    "domain": "devfest-pisa-debug.firebaseapp.com",
+    "database": "https://devfest-pisa-debug.firebaseio.com",
+    "api": "AIzaSyCEzpJC3TEE2GXILeALBc5jHSVz71qtz5g",
+    "userSessionsPath": "/userSessions",
+    "ratingsPath": "/ratings",
+    "indexedDbSession": "hoverboard"
+  },
+  "dateFormat": {
+    "locale": "en-US",
+    "blog": {"month": "short", "day": "numeric", "year": "numeric"}
+  },
+  "tweetsSource": "https://devfest-pisa-tweets.herokuapp.com/searchjson.php?q=%23devfestpisa",
+  "hashtag": "devfestpisa",
+  "featuredInHome": true,
+  "partnershipProposition": "http://bit.ly/dfpi17-partnership",
+  "enableSessionsRating": true,
+  "navigation": [
+    {
+      "route": "home",
+      "permalink": "/"
+    },
+    {
+      "route": "blog",
+      "permalink": "/blog/"
+    },
+    {
+      "route": "schedule",
+      "permalink": "/schedule/"
+    },
+    {
+      "route": "speakers",
+      "permalink": "/speakers/"
+    },
+    {
+      "route": "team",
+      "permalink": "/team/"
+    }
+  ],
+  "social": [
+    {
+      "name": "twitter",
+      "nickname": "GDGPisa",
+      "url": "https://twitter.com/gdgpisa"
+    },
+    {
+      "name": "gplus",
+      "nickname": "+GDGPisa",
+      "url": "https://plus.google.com/+GDGPisa"
+    },
+    {
+      "name": "facebook",
+      "nickname": "GDGPisa",
+      "url": "https://www.facebook.com/gdgpisa"
+    },
+    {
+      "name": "linkedin",
+      "nickname": "GDG Pisa",
+      "url": "https://www.linkedin.com/company/18322608/"
+    }
+  ],
+  "location": {
+    "apiKey": "AIzaSyBRrRKFjazKmIy6rvOmVRIsYX84cDvNleY",
+    "name": "Polo Fibonacci",
+    "address": "Largo Bruno Pontecorvo, 3, Pisa PI, Italy",
+    "link": "https://goo.gl/maps/dW6MSxU8YrR2",
+    "pointer": {
+      "latitude": 43.720879,
+      "longitude": 10.407932,
+      "zoom": 15
+    },
+    "mapCenter": {
+      "latitude": 43.720879,
+      "longitude": 10.407932
+    },
+    "images": [
+      "/images/backgrounds/location_1.jpg",
+      "/images/backgrounds/location_2.jpg",
+      "/images/backgrounds/location_3.jpg"
+    ]
+  },
+  "gallery": {
+    "albumUrl": "https://www.meetup.com/GDG-Pisa/photos/",
+    "photos": {
+      "big": "/images/backgrounds/homephoto_0.jpg",
+      "small": [
+        "/images/backgrounds/homephoto_1.jpg",
+        "/images/backgrounds/homephoto_2.jpg",
+        "/images/backgrounds/homephoto_3.jpg"
+      ]
+    }
+  },
+  "pages": {
+    "home": {
+      "title": "Home",
+      "headerSettings": {
+        "backgroundColor": "#FF9800",
+        "backgroundImage": "/images/backgrounds/home.jpg",
+        "fontColor": "#fff",
+        "tabBarColor": "#fff",
+        "hideLogo": true,
+        "minHeight": "360px"
+      }
+    },
+    "blog": {
+      "title": "Blog",
+      "headerSettings": {
+        "backgroundColor": "#03a9f4",
+        "fontColor": "#fff",
+        "tabBarColor": "#fff"
+      }
+    },
+    "speakers": {
+      "title": "Speakers",
+      "headerSettings": {
+        "backgroundColor": "#3f51b5",
+        "fontColor": "#fff",
+        "tabBarColor": "#fff"
+      }
+    },
+    "schedule": {
+      "title": "Schedule",
+      "headerSettings": {
+        "backgroundColor": "#673ab7",
+        "fontColor": "#fff",
+        "tabBarColor": "#fff"
+      }
+    },
+    "team": {
+      "title": "Team",
+      "headerSettings": {
+        "backgroundColor": "#009688",
+        "fontColor": "#fff",
+        "tabBarColor": "#fff"
+      }
+    },
+    "cod": {
+      "title": "Code of Conduct",
+      "headerSettings": {
+        "backgroundColor": "#673ab7",
+        "fontColor": "#fff",
+        "tabBarColor": "#fff"
+      }
+    }
+  }
+}
