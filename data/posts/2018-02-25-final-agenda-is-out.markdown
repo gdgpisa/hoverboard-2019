@@ -1,6 +1,6 @@
-As promised, we are now happy to announce the DevFest Pisa 0.1 **[final agenda](/schedule)** 📅 ! We are so excited to have on-board **[16 amazing speakers](/speakers)** from all around the world! 🎉
+As promised, we are now happy to announce the DevFest Pisa 0.1 [final agenda](/schedule) 📅 ! We are so excited to have on-board [16 amazing speakers](/speakers) from all around the world! 🎉
 
-First, we want to introduce our *special guest*: directly from **Tel Aviv, Israel** we are happy to introduce **[Britt Barak](/speakers/12)**, Google Developer Expert for Android and WTM Israel Lead. She's going to kick off our DevFest with an awesome talk about (Who’s afraid of Machine Learning? First steps with TensorFlow for Android)[/schedule/day1?sessionId=156].
+First, we want to introduce our special guest: directly from **Tel Aviv, Israel** we are happy to introduce [Britt Barak](/speakers/12), Google Developer Expert for Android and WTM Israel Lead. She's going to kick off our DevFest with an awesome talk about [Who’s afraid of Machine Learning? First steps with TensorFlow for Android](/schedule/day1?sessionId=156).
 
 Furthermore, other **four speakers** are joining our agenda to talk about **#mvp**, **#kotlin**, **#cloud** and **#ux/ui**:
 

@@ -11,7 +11,7 @@ Ci teniamo a ricordare che la DevFest è organizzata interamente su **base volon
 
 Chiunque! Non servono competenze particolari per dare una mano a riordinare le sedie dopo un talk 😉
 
-In particolare stiamo cercando perso che ci diano una mano nei seguenti ambiti:
+In particolare stiamo cercando persone che ci diano una mano nei seguenti ambiti:
 * **Accoglienza** (Accoglienza e checkin dei partecipanti, consegna dei badge, etc.)
 * **Supporto Catering** (coffee break/pranzo)
 * **Stage Manager** (Introdurre gli speaker, dare bottigliette d'acqua, indicare quando il talk sta per finire)
@@ -20,7 +20,7 @@ In particolare stiamo cercando perso che ci diano una mano nei seguenti ambiti:
 
 **Il vostro aiuto può fare la differenza** ❤️
 
-Per participare è basta completare il form che trovate premendo sul bottone:
+Per participare è sufficiente completare il form che trovate premendo sul bottone:
 
 <div class="text-center">
 <a href="http://bit.ly/dfpi17-volunteer" target="_blank" class="style-scope header-content" style="color: white; ">
