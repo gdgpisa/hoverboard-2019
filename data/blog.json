@@ -61,5 +61,14 @@
     "secondaryColor": "#9C27B0",
     "image": "/images/posts/final-agenda-is-out.jpg",
     "brief": "As promised, we are now happy to announce the DevFest Pisa 0.1 final agenda 📅 ! We are so excited to have on-board 16 amazing speakers from all around the world!"
+  },
+  {
+    "id": "sold-out-and-waiting-list",
+    "title": "We are SOLD OUT...! But don't miss the waiting list",
+    "posted": "2018-03-01",
+    "primaryColor": "#00BCD4",
+    "secondaryColor": "#00BCD4",
+    "image": "/images/posts/sold-out-and-waiting-list.jpg",
+    "brief": "We are extremely excited to inform that DevFest Pisa 0.1 is Sold Out! We decided to open our waiting list. You can register if you haven't managed to get a ticket."
   }
 ]
