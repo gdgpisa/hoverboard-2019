@@ -1,7 +1,8 @@
 # How to get here
 
-<p align="center">
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d720.8663979883096!2d10.40789442918113!3d43.72165386791953!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12d591bb74049877%3A0xc0524b80ebd5e34f!2sEdificio+E+-+Polo+Fibonacci!5e0!3m2!1sen!2sde!4v1519591754020" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></p>
+<div class="google-maps">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d720.8663979883096!2d10.40789442918113!3d43.72165386791953!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12d591bb74049877%3A0xc0524b80ebd5e34f!2sEdificio+E+-+Polo+Fibonacci!5e0!3m2!1sen!2sde!4v1519591754020" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+</div>
 
 The conference will take place at the **University of Pisa** in the **Polo Fibonacci - Building E**. Pisa is a small town and you can easily walk around or rely on public transportation if you're coming from far away.
 
