@@ -70,5 +70,14 @@
     "secondaryColor": "#00BCD4",
     "image": "/images/posts/sold-out-and-waiting-list.jpg",
     "brief": "We are extremely excited to inform that DevFest Pisa 0.1 is Sold Out! We decided to open our waiting list. You can register if you haven't managed to get a ticket."
+  },
+  {
+    "id": "introducing-our-codelabs",
+    "title": "Introducing the Kotlin and the Javascript codelabs",
+    "posted": "2018-03-04",
+    "primaryColor": "#9C27B0",
+    "secondaryColor": "#9C27B0",
+    "image": "/images/posts/introducing-our-codelabs.png",
+    "brief": "TODO."
   }
 ]
