@@ -1,7 +1,7 @@
 Have you checked our [final agenda](/schedule)? You probably noticed that we added **two codelabs!** 🛠 to our schedule:
 
-*  [The Kotlin codelab](http://localhost:3000/schedule/day1?sessionId=161)
-*  [The Javascript codelab](http://localhost:3000/schedule/day1?sessionId=165)
+*  [The Kotlin codelab](http://devfest.gdgpisa.it/schedule/day1?sessionId=161)
+*  [The Javascript codelab](http://devfest.gdgpisa.it/schedule/day1?sessionId=165)
 
 Our DevFest is not only talks and tech sessions, we want to give you the chance to **learn by doing**! We organized those codelabs as longer sessions (1h30m), and with a **restricted number of participants**. You will be helped by a **tech expert** that will guide you during the codelab with **code examples** and **exercises**.
 
