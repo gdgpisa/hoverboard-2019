@@ -1,4 +1,4 @@
-Have you checked our [final agenda](/schedule)? You probably notice that we added **two codelabs!** 🛠 to our schedule:
+Have you checked our [final agenda](/schedule)? You probably noticed that we added **two codelabs!** 🛠 to our schedule:
 
 *  [The Kotlin codelab](http://localhost:3000/schedule/day1?sessionId=161)
 *  [The Javascript codelab](http://localhost:3000/schedule/day1?sessionId=165)
