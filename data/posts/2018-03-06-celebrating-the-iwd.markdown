@@ -20,7 +20,7 @@ Are you interested in those topics? Make sure to don't miss the WTM meetup, room
 If you're interested and want to participate to the unconference, please join our **Telegram WTM group** here:
 
 <div class="text-center">
-<a href="http://bit.ly/dfpi17-jscodelab" target="_blank" class="style-scope header-content" style="color: white; ">
+<a href="https://t.me/joinchat/BM7uSxFc3opUHvy5cYjS9A" target="_blank" class="style-scope header-content" style="color: white; ">
   <paper-button class="style-scope header-content x-scope paper-button-0" raised="" role="button" tabindex="0" animated="" aria-disabled="false" elevation="1" style="color: white; background: #14eab6;"><b>Join the WTM Chat!</b></paper-button>
 </a>
 </div>
@@ -46,7 +46,7 @@ Ti interessano questi argomenti? Assicurati di non perdere il meetup WTM, stanza
 Se sei interessato e vuoi partecipare alla nostra unconference, unisciti al nostro **Telegram WTM group** qui:
 
 <div class="text-center">
-<a href="http://bit.ly/dfpi17-jscodelab" target="_blank" class="style-scope header-content" style="color: white; ">
+<a href="https://t.me/joinchat/BM7uSxFc3opUHvy5cYjS9A" target="_blank" class="style-scope header-content" style="color: white; ">
   <paper-button class="style-scope header-content x-scope paper-button-0" raised="" role="button" tabindex="0" animated="" aria-disabled="false" elevation="1" style="color: white; background: #14eab6;"><b>Entra nella chat WTM!</b></paper-button>
 </a>
 </div>
