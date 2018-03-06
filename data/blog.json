@@ -79,5 +79,14 @@
     "secondaryColor": "#9C27B0",
     "image": "/images/posts/introducing-our-codelabs.png",
     "brief": "Have you checked our final agenda? You probably noticed that we added two codelabs! 🛠 to our schedule. Due to the limited number of sposts, you need an extra registration for those codelabs."
+  },
+  {
+    "id": "celebrating-the-iwd",
+    "title": "Celebrating the International Women's Day",
+    "posted": "2018-03-06",
+    "primaryColor": "#14eab6",
+    "secondaryColor": "#14eab6",
+    "image": "/images/posts/iwd.png",
+    "brief": "To celebrate the International Women's Day (8th of March), the GDG Pisa is happy to announce a dedicated women's meeting ♀ within the DevFest Pisa 0.1!"
   }
 ]
