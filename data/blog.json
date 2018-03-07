@@ -88,5 +88,14 @@
     "secondaryColor": "#14eab6",
     "image": "/images/posts/iwd.png",
     "brief": "To celebrate the International Women's Day (8th of March), the GDG Pisa is happy to announce a dedicated women's meeting ♀ within the DevFest Pisa 0.1!"
+  },
+  {
+    "id": "introducing-our-job-wall",
+    "title": "Introducing our Job Wall",
+    "posted": "2018-03-08",
+    "primaryColor": "#00BCD4",
+    "secondaryColor": "#00BCD4",
+    "image": "/images/posts/introducing-our-job-wall.jpg",
+    "brief": "TODO!"
   }
 ]
