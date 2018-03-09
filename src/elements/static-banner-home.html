@@ -12,7 +12,7 @@
     <style include="shared-styles">
       :host {
         display: block;
-        background: #9C27B0;
+        background: #00BCD4;
         color: #FFFFFF;
       }
 
@@ -30,9 +30,9 @@
     </style>
 
     <div class="container container-narrow">
-      <h4 class="heading">We are looking for helpers! 🤝</h4>
-      <p> Do you want give your support to the DevFest Pisa? We are looking for<b> volunteers </b>to help us during the event!</p>
-      <p> <paper-button class="secondary" on-tap="_openCfh" raised>Become a Helper</paper-button> <paper-button class="secondary" on-tap="_openBlogpost" raised>More Info</paper-button></p>
+      <h4 class="heading">Check the DevFest FAQs! ⁉️</h4>
+      <p> Make sure to come to the DevFest Pisa with every doubt solved! We created a list of common questions we received, we hope you can find it useful.</p>
+      <p> <paper-button class="secondary" on-tap="_openFaq" raised>Open the FAQs</paper-button>
     </div>
 
   </template>
@@ -45,13 +45,9 @@
 
         is: 'static-banner-home',
 
-        _openCfh: function () {
-          window.open('http://bit.ly/dfpi17-volunteer', '_blank');
+        _openFaq: function () {
+          window.open('http://devfest.gdgpisa.it/blog/posts/faq/', '_blank');
         },
-
-        _openBlogpost: function () {
-          window.open('/blog/posts/we-are-looking-for-helpers', '');
-        }
 
       });
 

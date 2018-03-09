@@ -97,5 +97,23 @@
     "secondaryColor": "#00BCD4",
     "image": "/images/posts/introducing-our-job-wall.jpg",
     "brief": "Are you looking for a freelance Android Developer? Is your company currently looking for Go developers? Do you need some developers to kick-off your machine learning project? We hope you can find whay you need at the DevFest Pisa 0.1!"
+  },
+  {
+    "id": "dont-miss-the-beer-party",
+    "title": "Don't miss our Beer Networking afterparty!",
+    "posted": "2018-03-08",
+    "primaryColor": "#00BCD4",
+    "secondaryColor": "#00BCD4",
+    "image": "/images/posts/dont-miss-the-beer-party.jpg",
+    "brief": "TODO"
+  },
+  {
+    "id": "faq",
+    "title": "IMPORTANT: DevFest FAQs",
+    "posted": "2018-03-09",
+    "primaryColor": "#00BCD4",
+    "secondaryColor": "#00BCD4",
+    "image": "/images/posts/faq.jpg",
+    "brief": "TODO"
   }
 ]
