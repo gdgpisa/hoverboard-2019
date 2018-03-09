@@ -105,7 +105,7 @@
     "primaryColor": "#00BCD4",
     "secondaryColor": "#00BCD4",
     "image": "/images/posts/dont-miss-the-beer-party.jpg",
-    "brief": "TODO"
+    "brief": "Have you checked what's at the bottom of the agenda...? Beer! What a better way to close our event than a **networking beer party! We are going to at Lo Spaventapasseri at 7:30pm and we will enjoy the rest of the evening together."
   },
   {
     "id": "faq",
@@ -114,6 +114,6 @@
     "primaryColor": "#00BCD4",
     "secondaryColor": "#00BCD4",
     "image": "/images/posts/faq.jpg",
-    "brief": "TODO"
+    "brief": "Here we are guys! The DevFest Pisa 0.1 is really close! We are really excited to see you soon. But first, let us share a list of FAQs that we received in the last days. We hope this is helpful for everyone."
   }
 ]

@@ -1,7 +1,7 @@
 Have you checked what's at the bottom of the agenda...? Beer! 🍻
 What a better way to close our event than a **networking beer party**!
 
-We are going to at [Lo Spaventapasseri](https://goo.gl/maps/J5o4SCja6DT2) at **19:30** and enjoy the rest of the evening together.
+We are going to at [Lo Spaventapasseri](https://goo.gl/maps/J5o4SCja6DT2) at **7:30 pm** and we will enjoy the rest of the evening together.
 
 Some beers are **offered by the GDG Pisa**, make sure to don't miss it!
 
