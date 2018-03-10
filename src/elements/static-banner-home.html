@@ -12,7 +12,7 @@
     <style include="shared-styles">
       :host {
         display: block;
-        background: #00BCD4;
+        background: var(--accent-color);
         color: #FFFFFF;
       }
 
@@ -30,9 +30,9 @@
     </style>
 
     <div class="container container-narrow">
-      <h4 class="heading">Check the DevFest FAQs! ⁉️</h4>
-      <p> Make sure to come to the DevFest Pisa with every doubt solved! We created a list of common questions we received, we hope you can find it useful.</p>
-      <p> <paper-button class="secondary" on-tap="_openFaq" raised>Open the FAQs</paper-button>
+      <h4 class="heading">Don't forget to leave your feedback! ❤️</h4>
+      <p>Are you enjoying the DevFest? Then please leave your feedback to let us improve the conference and the community.</p>
+      <p> <paper-button class="secondary" on-tap="_openFback" raised>Leave your feedback</paper-button>
     </div>
 
   </template>
@@ -45,8 +45,8 @@
 
         is: 'static-banner-home',
 
-        _openFaq: function () {
-          window.open('http://devfest.gdgpisa.it/blog/posts/faq/', '_blank');
+        _openFback: function () {
+          window.open('https://goo.gl/forms/U8QAIHc49BcUsTAr1', '_blank');
         },
 
       });
