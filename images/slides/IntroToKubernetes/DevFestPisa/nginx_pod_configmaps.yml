@@ -1,0 +1,28 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: nginx-config
+  labels:
+    app: nginx-config
+
+spec:
+  containers:
+  - name: nginx-config
+    image: nginx:1.7.9
+    ports:
+    - containerPort: 80
+    env:
+    - name: GAME_TITLE
+      valueFrom:
+        configMapKeyRef:
+          name: game-config
+          key: title
+    volumeMounts:
+    - name: g-config
+      mountPath: /config
+  volumes:
+  - name: g-config
+    configMap:
+      # Provide the name of the ConfigMap containing the files you want
+      # to add to the container
+      name: game-config
