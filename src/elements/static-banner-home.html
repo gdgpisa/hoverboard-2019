@@ -10,34 +10,35 @@
   <template>
 
     <style include="shared-styles">
-      :host {
-        display: block;
-        background: var(--accent-color);
-        color: #FFFFFF;
-      }
+    :host {
+      display: block;
+      background: #9C27B0;
+      color: #FFFFFF;
+    }
 
-      .container {
-        @apply(--layout-vertical);
-        @apply(--layout-center-center);
-        text-align: center;
-      }
+    .container {
+      @apply(--layout-vertical);
+      @apply(--layout-center-center);
+      text-align: center;
+    }
 
-      .heading {
-        @apply(--layout-flex-auto);
-        @apply(--layout-self-center);
-        margin-bottom: 0 !important;
-      }
-    </style>
+    .heading {
+      @apply(--layout-flex-auto);
+      @apply(--layout-self-center);
+      margin-bottom: 0 !important;
+    }
+  </style>
 
-    <div class="container container-narrow">
-      <h4 class="heading">Don't forget to leave your feedback! ❤️</h4>
-      <p>Are you enjoying the DevFest? Then please leave your feedback to let us improve the conference and the community.</p>
-      <p> <paper-button class="secondary" on-tap="_openFback" raised>Leave your feedback</paper-button>
+  <div class="container container-narrow">
+    <h4 class="heading">Let's keep in touch!</h4>
+    <p>The DevFest Pisa 0.1 is over! Don't forget to check our highlight video and to keep in touch with GDG Pisa! Be sure to don't miss the next awesome event!</p>
+    <p> 
+      <paper-button class="secondary" on-tap="_openVideo" raised>See the highlights</paper-button><paper-button class="secondary" on-tap="_openGdgsite" raised>Keep in touch</paper-button>
     </div>
 
   </template>
 
-    <script>
+  <script>
     (function () {
       'use strict';
 
@@ -45,8 +46,14 @@
 
         is: 'static-banner-home',
 
-        _openFback: function () {
-          window.open('https://goo.gl/forms/U8QAIHc49BcUsTAr1', '_blank');
+        _openGdgsite: function () {
+          window.open('https://gdgpisa.it/', '_blank');
+        },
+
+        _openVideo: function () {
+          HOVERBOARD.Elements.Template.openVideo('{$ pages.home.headerSettings.video.title $}',
+            '{$ pages.home.headerSettings.video.youtubeId $}', true);
+          HOVERBOARD.Analytics.trackEvent('video', 'watch', '{$ pages.home.headerSettings.video.title $}');
         },
 
       });

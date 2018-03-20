@@ -32,12 +32,12 @@
 
     <static-banner-home app="{{app}}" cascaded></static-banner-home>
     <statistics-block app="{{app}}" cascaded></statistics-block>
+    {% if callToAction %}
+      <call-to-action app="{{app}}" cascaded></call-to-action>
+    {% endif %}
     <featured-people app="{{app}}" people="{{people}}" cascaded></featured-people>
     {% if videosSessionsUrl %}
       <featured-videos app="{{app}}" cascaded></featured-videos>
-    {% endif %}
-    {% if callToAction %}
-      <call-to-action app="{{app}}" cascaded></call-to-action>
     {% endif %}
     <featured-sponsors app="{{app}}" cascaded></featured-sponsors>
     <about-block app="{{app}}" cascaded></about-block>

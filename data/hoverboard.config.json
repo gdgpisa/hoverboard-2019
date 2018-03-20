@@ -10,6 +10,10 @@
     "name": "GDG Pisa",
     "twitter": "devfestpisa"
   },
+  "callToAction": {
+    "videoTitle": "DevFest Pisa 0.1 Video Highlights",
+    "videoId": "KKKoFXHC_zc"
+  },
   "webapp": {
     "shortName": "DevFest Pisa",
     "themeColor": "#F57C00",
@@ -121,7 +125,12 @@
         "fontColor": "#fff",
         "tabBarColor": "#fff",
         "hideLogo": true,
-        "minHeight": "360px"
+        "minHeight": "360px",
+        "video": {
+          "title": "",
+          "youtubeId": "KKKoFXHC_zc",
+          "text": "See our video recap"
+        }
       }
     },
     "blog": {
