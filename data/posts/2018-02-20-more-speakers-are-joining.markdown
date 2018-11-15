@@ -4,11 +4,11 @@ We really want to **thank** all of **you for** your submissions! We received **m
 
 The [final agenda](/schedule) will land 🛬 later this week. But now, we are able to share other **five awesome speakers** that are approaching our DevFest Pisa 0.1. We are so happy to talk about **#ai**, **#machinelearning**, **#python**, **#voiceui** and **#golang** with:
 
-* [Alfredo Morresi](https://devfest.gdgpisa.it/speakers/10/) (Google) - [Exploring Google Assistant and DialogFlow](https://devfest.gdgpisa.it/schedule/day1?sessionId=154)
-* [Francesco Romano](https://devfest.gdgpisa.it/speakers/7/) (GDG Cosenza) - [I robot guidano meglio di noi?](https://devfest.gdgpisa.it/schedule/day1?sessionId=151)
-* [Federico Paolinelli](https://devfest.gdgpisa.it/speakers/8/) (List Group) - [Go for C developers: a journey into learning golang from a C developer perspective](https://devfest.gdgpisa.it/schedule/day1?sessionId=152)
-* [Elia Rigo](https://devfest.gdgpisa.it/speakers/9/) (FBK) - [Image Recognition with TensorFlow using Deep Learning](https://devfest.gdgpisa.it/schedule/day1?sessionId=153)
-* [Michele De Simoni](https://devfest.gdgpisa.it/speakers/11/) (Zuru) - [From PyData Padawan to Jedi: a journey through libraries, concepts and MOOCS.](https://devfest.gdgpisa.it/schedule/day1?sessionId=155)
+* [Alfredo Morresi](/speakers/10/) (Google) - [Exploring Google Assistant and DialogFlow](/schedule/day1?sessionId=154)
+* [Francesco Romano](/speakers/7/) (GDG Cosenza) - [I robot guidano meglio di noi?](/schedule/day1?sessionId=151)
+* [Federico Paolinelli](/speakers/8/) (List Group) - [Go for C developers: a journey into learning golang from a C developer perspective](/schedule/day1?sessionId=152)
+* [Elia Rigo](/speakers/9/) (FBK) - [Image Recognition with TensorFlow using Deep Learning](/schedule/day1?sessionId=153)
+* [Michele De Simoni](/speakers/11/) (Zuru) - [From PyData Padawan to Jedi: a journey through libraries, concepts and MOOCS.](/schedule/day1?sessionId=155)
 
 Our [speakers page](/speakers) is getting pretty big 😄 **stay tuned for more speakers coming soon!**.
 

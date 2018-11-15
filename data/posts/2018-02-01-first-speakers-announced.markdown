@@ -4,12 +4,12 @@ DevFest Pisa 0.1 is coming closer and our community is working harder to craft a
 
 Today we are happy to announce our first six **rockstar speakers** 🎉! We are really happy to welcome on stage:
 
-* [**Roberto Orgiu**](https://devfest.gdgpisa.it/speakers/5/) (The New York Times & Google Developer Expert for Android) - [Have you met Flutter?](https://devfest.gdgpisa.it/schedule/day1?sessionId=149)
-* [**Fabio Collini**](https://devfest.gdgpisa.it/speakers/4/) (Nana Bianca & Google Developer Expert for Android) - [From Java to Kotlin beyond Alt+Shift+Cmd+K](https://devfest.gdgpisa.it/schedule/day1?sessionId=148)
-* [**James Mark Coggan**](https://devfest.gdgpisa.it/speakers/6/) (My Drive) - [How to test your Android Things code in a clean way with Kotlin](https://devfest.gdgpisa.it/schedule/day1?sessionId=150)
-* [**Francesco Romani**](https://devfest.gdgpisa.it/speakers/2/) (Red Hat) - [Journey to the Center of the Containers](https://devfest.gdgpisa.it/schedule/day1?sessionId=146)
-* [**Torello Querci**](https://devfest.gdgpisa.it/speakers/3/) (Sighup) - [Introduzione a Kubernetes](https://devfest.gdgpisa.it/schedule/day1?sessionId=147)
-* [**Michel Murabito**](https://devfest.gdgpisa.it/speakers/1/) (Spindox) - [Run Fast with Modern Javascript](https://devfest.gdgpisa.it/schedule/day1?sessionId=145)
+* [**Roberto Orgiu**](/speakers/5/) (The New York Times & Google Developer Expert for Android) - [Have you met Flutter?](/schedule/day1?sessionId=149)
+* [**Fabio Collini**](/speakers/4/) (Nana Bianca & Google Developer Expert for Android) - [From Java to Kotlin beyond Alt+Shift+Cmd+K](/schedule/day1?sessionId=148)
+* [**James Mark Coggan**](/speakers/6/) (My Drive) - [How to test your Android Things code in a clean way with Kotlin](/schedule/day1?sessionId=150)
+* [**Francesco Romani**](/speakers/2/) (Red Hat) - [Journey to the Center of the Containers](/schedule/day1?sessionId=146)
+* [**Torello Querci**](/speakers/3/) (Sighup) - [Introduzione a Kubernetes](/schedule/day1?sessionId=147)
+* [**Michel Murabito**](/speakers/1/) (Spindox) - [Run Fast with Modern Javascript](/schedule/day1?sessionId=145)
 
 You can check out speakers bio and sessions description in the [Speakers](/speakers) and [Schedule](/schedule) pages.
 

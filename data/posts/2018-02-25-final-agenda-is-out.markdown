@@ -1,13 +1,13 @@
 As promised, we are now happy to announce the DevFest Pisa 0.1 [final agenda](/schedule) 📅 ! We are so excited to have on-board [16 amazing speakers](/speakers) from all around the world! 🎉
 
-First, we want to introduce our special guest: directly from **Tel Aviv, Israel** we are happy to introduce [Britt Barak](https://devfest.gdgpisa.it/speakers/12), Google Developer Expert for Android and WTM Israel Lead. She's going to kick off our DevFest with an awesome talk about [Who’s afraid of Machine Learning? First steps with TensorFlow for Android](https://devfest.gdgpisa.it/schedule/day1?sessionId=156).
+First, we want to introduce our special guest: directly from **Tel Aviv, Israel** we are happy to introduce [Britt Barak](/speakers/12), Google Developer Expert for Android and WTM Israel Lead. She's going to kick off our DevFest with an awesome talk about [Who’s afraid of Machine Learning? First steps with TensorFlow for Android](/schedule/day1?sessionId=156).
 
 Furthermore, other **four speakers** are joining our agenda to talk about **#mvp**, **#kotlin**, **#cloud** and **#ux/ui**:
 
-* [Pascal How](https://devfest.gdgpisa.it/speakers/13/) (MyDrive) - [Kotlin Extension Functions and Beyond.](https://devfest.gdgpisa.it/schedule/day1?sessionId=157)
-* [Giovanni Toraldo](https://devfest.gdgpisa.it/speakers/14/) (Cloudesire) - [Managing GCP Projects with Terraform](https://devfest.gdgpisa.it/schedule/day1?sessionId=158)
-* [Leonardo Pirro](https://devfest.gdgpisa.it/speakers/15/) (IQUII) - [Empower your app with MVP & Architecture Components](https://devfest.gdgpisa.it/schedule/day1?sessionId=159)
-* [Nicola Corti](https://devfest.gdgpisa.it/speakers/16/) (Yelp) - [Building UI Consistent Android Apps](https://devfest.gdgpisa.it/schedule/day1?sessionId=160)
+* [Pascal How](/speakers/13/) (MyDrive) - [Kotlin Extension Functions and Beyond.](/schedule/day1?sessionId=157)
+* [Giovanni Toraldo](/speakers/14/) (Cloudesire) - [Managing GCP Projects with Terraform](/schedule/day1?sessionId=158)
+* [Leonardo Pirro](/speakers/15/) (IQUII) - [Empower your app with MVP & Architecture Components](/schedule/day1?sessionId=159)
+* [Nicola Corti](/speakers/16/) (Yelp) - [Building UI Consistent Android Apps](/schedule/day1?sessionId=160)
 
 ## Get Involved!
 
