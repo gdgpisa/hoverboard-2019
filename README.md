@@ -1,4 +1,4 @@
-# GDG DevFest Pisa 2017 Website 🌎
+# GDG DevFest Pisa 0.1 Website 🌎
 
  [![License](https://img.shields.io/badge/license-MIT%20License-brightgreen.svg)](https://opensource.org/licenses/MIT) [![Twitter](https://img.shields.io/badge/Twitter-@gdgPisa-blue.svg?style=flat)](http://twitter.com/gdgPisa)
 
@@ -6,7 +6,7 @@
   <img src="https://i.imgur.com/yoobq6G.png" alt="readme screenshot"/>
 </p>
 
-:zap: [Live Website](https://devfest.gdgpisa.it/)
+:zap: [Live Website](https://2018.devfest.gdgpisa.it/)
 
 ### Setup
 :book: [Full documentation](/docs/).
