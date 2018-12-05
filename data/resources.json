@@ -85,8 +85,8 @@
     "callToAction": {
       "featuredSessions": {
         "description": "GDG Pisa is proud to announce that DevFest Pisa 0.1 is now stable! DevFest Pisa will be a one-day conference all about Android, Web, Cloud and Google technologies in the hearth of Tuscany.",
-        "label": "Explore featured session",
-        "link": "https://www.youtube.com/playlist?list=PLt8lEzcLNl31AouwDkbLbLARlQFwNS2en"
+        "label": "Read the full announcement",
+        "link": "blog/posts/dfpi19-announced/"
       },
       "howItWas": {
         "description": "After the success of DevFest Pisa 0.1 in March 2018, the GDG Pisa is happy to announce another awesome conference for 2019!",
