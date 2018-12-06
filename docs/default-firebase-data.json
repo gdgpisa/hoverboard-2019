@@ -69,7 +69,7 @@
         }, {
           "items" : [ 100 ]
         }, {
-          "extend" : 3,
+          "extend" : 2,
           "items" : [ 100 ]
         } ],
         "startTime" : "11:00"
@@ -90,7 +90,7 @@
       }, {
         "endTime" : "14:40",
         "sessions" : [ {
-          "items" : [ 101 ]
+          "items" : [ 100 ]
         }, {
           "items" : [ 100 ]
         }, {
@@ -109,7 +109,7 @@
       }, {
         "endTime" : "16:00",
         "sessions" : [ {
-          "items" : [ 100 ]
+          "items" : [ 134 ]
         } ],
         "startTime" : "15:30"
       }, {
@@ -157,15 +157,15 @@
   },
   "sessions" : {
     "100" : {
-      "description" : "TBA",
+      "description" : "We haven't announced the final agenda yet. Make sure to come back to the website to check it.",
       "language" : "English",
       "title" : "TBA"
     },
     "132" : {
-      "description" : "Get your badge, coffee, enjoy talking with tech edicts around",
+      "description" : "Get your badge, swags and enjoy talking with tech edicts around",
       "icon" : "registration",
       "image" : "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Fregistration.jpg?alt=media&token=27328646-d323-4cca-904c-75f021bc3ffe",
-      "title" : "Registration & morning Coffee"
+      "title" : "Registration"
     },
     "133" : {
       "description" : "Foooooooood!",
@@ -190,7 +190,7 @@
       "icon" : "opening",
       "image" : "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Fopening.jpg?alt=media&token=aa52dd45-50c9-4e36-9485-c1f9138ecd6b",
       "language" : "English",
-      "title" : "DevFest Pisa 2018 Opening"
+      "title" : "DevFest Pisa 2019 Opening"
     },
     "137" : {
       "description" : "Afterparty is a great time to have some fun and meet new people",
