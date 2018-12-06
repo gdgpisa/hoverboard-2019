@@ -230,32 +230,88 @@
     "members" : [ {
       "name" : "Giovanni Bartolomeo",
       "photo" : "/images/people/giovanni_bartolomeo.jpg",
-      "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/devfest-pisa19.appspot.com/o/giovanni_bartolomeo.jpg?alt=media&token=f93b228a-7a74-4ce0-a862-9b13a355bc2c",
-      "socials" : [ ],
+      "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/devfest-pisa19.appspot.com/o/giovanni_bartolomeo.jpg?alt=media&token=8e2f0421-9618-45e1-a34d-b770dd411c6c",
+      "socials" : [ {
+        "icon" : "facebook",
+        "link" : "https://facebook.com/giobarty",
+        "name" : "Facebook"
+      }, {
+        "icon" : "twitter",
+        "link" : "https://twitter.com/Giobarty01",
+        "name" : "Twitter"
+      } ],
       "order" : 0,
       "title" : "GDG Manager"
     }, {
       "name" : "Diana Bernabei",
       "photo" : "/images/people/diana_bernabei.jpg",
-      "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/devfest-pisa19.appspot.com/o/diana_bernabei.jpg?alt=media&token=9b8db204-1fc1-4143-a72b-c62afd3da4fc",
-      "socials" : [ ],
+      "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/devfest-pisa19.appspot.com/o/diana_bernabei.jpg?alt=media&token=821472ba-f9d0-4e53-8735-4bfde7f1c71f",
+      "socials" : [ {
+        "icon" : "facebook",
+        "link" : "https://facebook.com/dianabernabei",
+        "name" : "Facebook"
+      }, {
+        "icon" : "twitter",
+        "link" : "https://twitter.com/dianabernabei",
+        "name" : "Twitter"
+      }, {
+        "icon" : "instagram",
+        "link" : "https://instagr.am/dianabernabei",
+        "name" : "instagram"
+      }, {
+        "icon" : "github",
+        "link" : "https://github.com/dianaberna",
+        "name" : "GitHub"
+      }, {
+        "icon" : "linkedin",
+        "link" : "https://linkedin.com/in/dianabernabei",
+        "name" : "LinkedIn"
+      }, {
+        "icon" : "website",
+        "link" : "https://ncorti.com/",
+        "name" : "Blog"
+      } ],
       "order" : 1,
       "title" : "GDG Manager"
     }, {
       "name" : "Domenico Blanco",
       "photo" : "/images/people/domenico_blanco.jpg",
-      "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/devfest-pisa19.appspot.com/o/nicola_corti.jpg?alt=media&token=c47536ea-6574-4028-a4e7-b57bf5618b08",
-      "socials" : [ ],
+      "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/devfest-pisa19.appspot.com/o/domenico_blanco.jpeg?alt=media&token=6c8ed182-6fd7-4d8d-99ce-c4c1fb3fb3d3",
+      "socials" : [ {
+        "icon" : "facebook",
+        "link" : "https://facebook.com/domenico.blanco.16",
+        "name" : "Facebook"
+      }, {
+        "icon" : "twitter",
+        "link" : "https://twitter.com/domenicoblanco",
+        "name" : "Twitter"
+      }, {
+        "icon" : "instagram",
+        "link" : "https://instagr.am/iosonododo",
+        "name" : "instagram"
+      }, {
+        "icon" : "github",
+        "link" : "https://github.com/domenicoblanco",
+        "name" : "GitHub"
+      }, {
+        "icon" : "linkedin",
+        "link" : "https://linkedin.com/in/domenico-blanco-700877171",
+        "name" : "LinkedIn"
+      } ],
       "order" : 2,
       "title" : "GDG Manager"
     },{
       "name" : "Nicola Corti",
       "photo" : "/images/people/nicola_corti.jpg",
-      "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/devfest-pisa19.appspot.com/o/nicola_corti.jpg?alt=media&token=c47536ea-6574-4028-a4e7-b57bf5618b08",
+      "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/devfest-pisa19.appspot.com/o/nicola_corti.jpg?alt=media&token=115f2cee-9265-44e2-9551-1510793a4703",
       "socials" : [ {
         "icon" : "twitter",
         "link" : "https://twitter.com/cortinico",
         "name" : "Twitter"
+      }, {
+        "icon" : "github",
+        "link" : "https://github.com/cortinico",
+        "name" : "GitHub"
       }, {
         "icon" : "website",
         "link" : "https://ncorti.com/",
@@ -266,8 +322,12 @@
     }, {
       "name" : "Gianni Modica",
       "photo" : "/images/people/gianni_modica.jpg",
-      "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/devfest-pisa19.appspot.com/o/gianni_modica.jpg?alt=media&token=f647cbc0-75c1-4476-985d-5a14d3b7d824",
-      "socials" : [ ],
+      "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/devfest-pisa19.appspot.com/o/gianni_modica.jpg?alt=media&token=d19ec504-d42b-4445-9124-be3327f6ab63",
+      "socials" : [ {
+        "icon" : "twitter",
+        "link" : "https://twitter.com/infernatico",
+        "name" : "Twitter"
+      } ],
       "order" : 4,
       "title" : "GDG Manager"
     } ],
