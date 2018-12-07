@@ -272,7 +272,7 @@
         "name" : "Blog"
       } ],
       "order" : 1,
-      "title" : "GDG Manager"
+      "title" : "GDG & WTM Manager"
     }, {
       "name" : "Domenico Blanco",
       "photo" : "/images/people/domenico_blanco.jpg",
@@ -300,7 +300,38 @@
       } ],
       "order" : 2,
       "title" : "GDG Manager"
-    },{
+    }, {
+      "name" : "Chiara Corrado",
+      "photo" : "/images/people/chiara_corrado.jpg",
+      "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/devfest-pisa19.appspot.com/o/chiara_corrado.jpeg?alt=media&token=10b823b9-09e9-4b6c-9a49-e77ab50002ce",
+      "socials" : [ {
+        "icon" : "facebook",
+        "link" : "https://www.facebook.com/chiara.corrado",
+        "name" : "Facebook"
+      }, {
+        "icon" : "twitter",
+        "link" : "https://twitter.com/kiaruzza",
+        "name" : "Twitter"
+      }, {
+        "icon" : "instagram",
+        "link" : "https://www.instagram.com/kiaruzza_dev/",
+        "name" : "instagram"
+      }, {
+        "icon" : "github",
+        "link" : "https://github.com/kiaruzza",
+        "name" : "GitHub"
+      }, {
+        "icon" : "linkedin",
+        "link" : "https://www.linkedin.com/in/chiaracorrado/",
+        "name" : "LinkedIn"
+      }, {
+        "icon" : "website",
+        "link" : "https://medium.com/@kiaruzza_dev",
+        "name" : "Blog"
+      } ],
+      "order" : 3,
+      "title" : "GDG & WTM Manager"
+    }, {
       "name" : "Nicola Corti",
       "photo" : "/images/people/nicola_corti.jpg",
       "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/devfest-pisa19.appspot.com/o/nicola_corti.jpg?alt=media&token=115f2cee-9265-44e2-9551-1510793a4703",
@@ -317,7 +348,7 @@
         "link" : "https://ncorti.com/",
         "name" : "Blog"
       } ],
-      "order" : 3,
+      "order" : 4,
       "title" : "GDG Manager"
     }, {
       "name" : "Gianni Modica",
@@ -328,7 +359,7 @@
         "link" : "https://twitter.com/infernatico",
         "name" : "Twitter"
       } ],
-      "order" : 4,
+      "order" : 5,
       "title" : "GDG Manager"
     } ],
     "title" : "Organizers"
