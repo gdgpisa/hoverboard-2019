@@ -2,9 +2,9 @@
 
 We're happy to announce that DevFest Pisa will take place on **April 13th 2019**, in the _Aula Magna_ of Polo Fibonacci! 
 
-2018 it's been an amazing year for both GDG and WTM Pisa. We organized several a lot of events during the year, delivering talks about Kotlin, Javascript, Golang and more technologies involing **over 700 participants**. In March we organized the first DevFest Pisa, a day full of talks and workshops on Google related technologies from international speakers. We called this first DevFest, the **DevFest Pisa 0.1**.
+2018 it's been an amazing year for both GDG and WTM Pisa. We organized several events during the year, delivering talks about Kotlin, Javascript, Golang and more technologies involing **over 700 participants**. In March we organized the first DevFest Pisa, a day full of talks and workshops on Google related technologies from international speakers. We called this first DevFest, the **DevFest Pisa 0.1**.
 
-Today we are happy to _release_ the first stable version of our conference: **DevFest Pisa 2019!**. 
+Today we are happy to _release_ the first stable version of our conference: **DevFest Pisa 2019!**
 
 We want this DevFest to be an event organized **by the community, for the community**. We want to allow to everyone to be part of the DevFest Pisa organization, either as a speaker, as a volunteer or as a organizer. Stay tuned as details for participating to the DevFest will be coming soon.
 
