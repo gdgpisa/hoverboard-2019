@@ -6,7 +6,7 @@
   "firebase": {
     "apiKey": "AIzaSyAEjmzH7wcpKgceyoNeWicUMNJvNybaX9w",
     "authDomain": "devfest-pisa19.firebaseapp.com",
-    "databaseURL": "https://hoverboard-master.firebaseio.com",
+    "databaseURL": "https://devfest-pisa19.firebaseio.com",
     "projectId": "devfest-pisa19",
     "storageBucket": "devfest-pisa19.appspot.com",
     "messagingSenderId": "246676716090"
