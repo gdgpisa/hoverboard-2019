@@ -11,7 +11,7 @@ We want this DevFest to be an event organized **by the community, for the commun
 But today you can already reserve your place taking your **free ticket**. The DevFest is happening in 4 months, but make sure you're not missing your seat:
 
 <div style="text-align: center">
-<a href="https://ncorti.com" target="_blank" class="style-scope header-content" style="color: white; ">
+<a href="http://bit.ly/dfpi19-tickets" target="_blank" class="style-scope header-content" style="color: white; ">
   <paper-button class="buy-button" primary="" role="button" tabindex="0" animated="" elevation="0" aria-disabled="false">Get a ticket</paper-button>
 </a>
 </div>
