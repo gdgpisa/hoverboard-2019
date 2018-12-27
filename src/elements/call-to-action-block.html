@@ -1,0 +1,66 @@
+<link rel="import" href="../../bower_components/polymer/polymer-element.html">
+
+<link rel="import" href="../../bower_components/iron-icon/iron-icon.html">
+<link rel="import" href="../../bower_components/paper-button/paper-button.html">
+<link rel="import" href="../../bower_components/marked-element/marked-element.html">
+<link rel="import" href="../../bower_components/plastic-image/plastic-image.html">
+
+<link rel="import" href="../mixins/redux-mixin.html">
+<link rel="import" href="hoverboard-icons.html">
+
+<dom-module id="call-to-action-block">
+  <template>
+    <style is="custom-style" include="shared-styles flex flex-alignment positioning"></style>
+
+    <style>
+      :host {
+        display: block;
+        background: var(--default-primary-color);
+        color: var(--text-primary-color);
+      }
+
+      .block:not(:last-of-type) {
+        margin-bottom: 32px;
+      }
+
+      .description {
+        color: var(--secondary-text-color);
+      }
+
+      paper-button {
+        margin: 0;
+      }
+    </style>
+
+    <div class="container container-narrow">
+      <h1 class="container-title">It's Call for Paper time!</h1>
+      <p>Now is time to submit your proposals for DevFest Pisa 2019! We're looking for talks, workshops and lightning talks!<br/>Make sure to don't miss out, the deadline is <strong>January the 31st!</strong></p>
+      <p> 
+        <paper-button primary invert on-tap="_openC4Psite">Submit a talk</paper-button>
+      </p>
+    </div>
+  </template>
+
+  <script>
+    class CallToActionBlock extends ReduxMixin(Polymer.Element) {
+      static get is() {
+        return 'call-to-action-block';
+      }
+
+      static get properties() {
+        return {
+          viewport: {
+            type: Object,
+            statePath: 'ui.viewport',
+          },
+        };
+      }
+
+      _openC4Psite() {
+        window.open('https://bit.ly/dfpi19-c4p', '_blank');
+      }
+    }
+
+    customElements.define(CallToActionBlock.is, CallToActionBlock);
+  </script>
+</dom-module>
