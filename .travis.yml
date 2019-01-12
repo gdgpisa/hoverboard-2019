@@ -5,11 +5,9 @@ cache:
   directories:
   - node_modules
   - "${NVM_PATH}_modules"
-
 install:
 - yarn
 - cd functions && yarn && cd ..
-
 script:
 - echo "Linting..."
 - yarn lint
@@ -17,23 +15,14 @@ script:
 - yarn test
 - echo "Building..."
 - if [ "$TRAVIS_BRANCH" == "release" ]; then yarn build:prod; else yarn build; fi
-
 before_deploy:
 - echo "Deploying!"
-
-# deploy:
-# - provider: firebase
-#   skip_cleanup: true
-#   on:
-#     branch: master
-#   project: hoverboard-master
-#   token:
-#     secure: dH2t9T+ydWtytB9JMVkbt46Ku2xOYi6dIlLFjyiFvTpYmUs6VZIFBkUP+1ohAlAgjlLeFeqFkWHpCbZfPp2tiPrF+y7VFIXxDM3wlByYyg+cCJDunvqgS7VJ2MX1XviiKIiElgu09T7FiV/59Y3GAh54KL4T8IB5+64tROGMXqgmYv2uwtgNH1AaNjkJFSQ+M9D4JBCpikZYe0Y+aU96IFrpPuo8wjLjk9UL/1WeVmjY1pmHpX0KkYDd4djuXe3wIVPnbzwbWgD7C+vzjFxeaktQv+I4axYj2gPtEuH+sDFU60mIiJoWDsdElUuiV3Sn5mJY5VmbufqNH9ijCl9Um2ufnu16aTQYja39sqK8dQrUsySesebHGNh+aUynusr7FXZInqjSxt7gBjJZGKuvPCRYlx7kZXB/gsij1zY1XlcGe83eCHJV3Ioa1xV8BOaCJTaCQAMmQBH1UVCB7xXsVUgAtlC4LCtjAvxeS7wrKmcVn7CGLXKF8y5Cg9SbtPIYfY3gtDeRYWM3aB28xOq2Zs3u11E4bkjEUWhey1uzbF1J2yOjIwo9l+uroSxmnpoeTjIiXFMBTn+crZ+ygdoB8Pb2zM0M0EukoYbVck7cQa9lICHPFob5UJUdbkpj0qAKOxtx+Uxlb4CUi+KNFeemQ4y9yaZ8IGbPtKycVMJXiOk=
-
-# - provider: firebase
-#   skip_cleanup: true
-#   on:
-#     branch: develop
-#   project: hoverboard-dev
-#   token:
-#     secure: dH2t9T+ydWtytB9JMVkbt46Ku2xOYi6dIlLFjyiFvTpYmUs6VZIFBkUP+1ohAlAgjlLeFeqFkWHpCbZfPp2tiPrF+y7VFIXxDM3wlByYyg+cCJDunvqgS7VJ2MX1XviiKIiElgu09T7FiV/59Y3GAh54KL4T8IB5+64tROGMXqgmYv2uwtgNH1AaNjkJFSQ+M9D4JBCpikZYe0Y+aU96IFrpPuo8wjLjk9UL/1WeVmjY1pmHpX0KkYDd4djuXe3wIVPnbzwbWgD7C+vzjFxeaktQv+I4axYj2gPtEuH+sDFU60mIiJoWDsdElUuiV3Sn5mJY5VmbufqNH9ijCl9Um2ufnu16aTQYja39sqK8dQrUsySesebHGNh+aUynusr7FXZInqjSxt7gBjJZGKuvPCRYlx7kZXB/gsij1zY1XlcGe83eCHJV3Ioa1xV8BOaCJTaCQAMmQBH1UVCB7xXsVUgAtlC4LCtjAvxeS7wrKmcVn7CGLXKF8y5Cg9SbtPIYfY3gtDeRYWM3aB28xOq2Zs3u11E4bkjEUWhey1uzbF1J2yOjIwo9l+uroSxmnpoeTjIiXFMBTn+crZ+ygdoB8Pb2zM0M0EukoYbVck7cQa9lICHPFob5UJUdbkpj0qAKOxtx+Uxlb4CUi+KNFeemQ4y9yaZ8IGbPtKycVMJXiOk=
+deploy:
+- provider: firebase
+  skip_cleanup: true
+  on:
+    branch: release
+  project: devfest-pisa19
+  token:
+    secure: AF8DAjE6idaKhycic2VD5kYzJ8eQH1cnzxxEKD1VozHIGAhofPKrdHFAsibjP7cSazzD0POWKFjPfIeyH31BSCm72eCSODZC3oX0DR8y8ry/769ySTrK6Z9lmdQ+EgQYk3jCpQ6KGq1YxPTnN63ZXs62WjAFfkSjEUGyqgEqt4/dc4924Imlnl4PJLHFfbB3T1XQtPfB8yX6QAY3gnawKmMN6S7+hq1hP3Jh1oCecXOjtZyNQwxPk3aah0E/QE1aNiTPNy4SzvW5aTKDvuklcwAsYf21payB+fPBMjImHgqJ+sY7RjcZzyB/Y8MtbBlwckbYSDqKx0MJFzw63A5ibC6Nr4Uu/fZt1U35cH+HmeaVRskHapQXKXC2HIF3GEDoFXA0f8WFOzz91mStf1S18KfTTbZhpz5Cv9Kt39OdW/ol3cTqqYNeI/dgDuhaIA25dDRZwkNZtAsWWJnT3Nu3s11Lkzc6E1g3OQgg0WT6GQTuBNpV1amHMZaDN7dFtwIvcHy8hCrSHkwuS+s0nUdouIdER6BoilUu9e8UGEb9lU4DERqIkeyOmHAHJl0G01A6LMnmjkN3xqfDcX1dh2zQ5zAmK735SZyFan/NRTS9OjfibYQb3mgveNCc7TVfVpoppHlUs3+Zzkof/xnrY9zmb5MpSvjRT10GlU6BEpaxis0=
+    
