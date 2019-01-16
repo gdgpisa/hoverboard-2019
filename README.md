@@ -13,7 +13,7 @@
 
 To contribute to the website, you don't need to clone the repository. The repository is integrated with TravisCI to make sure that the website is re-deployed **whenever there is a new commit**.
 
-The following branch are deployed:
+The following branches are deployed:
 
 | Branch | Destination | Status |
 | ------ | ----------- | ------ |
