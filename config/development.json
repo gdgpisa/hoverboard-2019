@@ -1,15 +1,15 @@
 {
   "basepath": "/",
-  "url": "https://devfest.gdgpisa.it/",
-  "analytics": "UA-110815683-2",
+  "url": "https://devfest-pisa19-debug.firebaseapp.com/",
+  "analytics": "UA-110815683-3",
   "prefix": "/",
   "firebase": {
-    "apiKey": "AIzaSyAEjmzH7wcpKgceyoNeWicUMNJvNybaX9w",
-    "authDomain": "devfest-pisa19.firebaseapp.com",
-    "databaseURL": "https://devfest-pisa19.firebaseio.com",
-    "projectId": "devfest-pisa19",
-    "storageBucket": "devfest-pisa19.appspot.com",
-    "messagingSenderId": "246676716090"
+    "apiKey": "AIzaSyAcmwlW33Pp-6F2cy7byf2ybkWi-JkH83w",
+    "authDomain": "devfest-pisa19-debug.firebaseapp.com",
+    "databaseURL": "https://devfest-pisa19-debug.firebaseio.com",
+    "projectId": "devfest-pisa19-debug",
+    "storageBucket": "devfest-pisa19-debug.appspot.com",
+    "messagingSenderId": "757526182245"
   },
   "googleMapApiKey": "AIzaSyBrzslkLGvvopPywdXmG92XV4Q11AqK5Ys"
 }

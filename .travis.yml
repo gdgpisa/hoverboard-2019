@@ -17,6 +17,7 @@ script:
 - if [ "$TRAVIS_BRANCH" == "release" ]; then yarn build:prod; else yarn build; fi
 before_deploy:
 - echo "Deploying!"
+
 deploy:
 - provider: firebase
   skip_cleanup: true
@@ -25,4 +26,12 @@ deploy:
   project: devfest-pisa19
   token:
     secure: AF8DAjE6idaKhycic2VD5kYzJ8eQH1cnzxxEKD1VozHIGAhofPKrdHFAsibjP7cSazzD0POWKFjPfIeyH31BSCm72eCSODZC3oX0DR8y8ry/769ySTrK6Z9lmdQ+EgQYk3jCpQ6KGq1YxPTnN63ZXs62WjAFfkSjEUGyqgEqt4/dc4924Imlnl4PJLHFfbB3T1XQtPfB8yX6QAY3gnawKmMN6S7+hq1hP3Jh1oCecXOjtZyNQwxPk3aah0E/QE1aNiTPNy4SzvW5aTKDvuklcwAsYf21payB+fPBMjImHgqJ+sY7RjcZzyB/Y8MtbBlwckbYSDqKx0MJFzw63A5ibC6Nr4Uu/fZt1U35cH+HmeaVRskHapQXKXC2HIF3GEDoFXA0f8WFOzz91mStf1S18KfTTbZhpz5Cv9Kt39OdW/ol3cTqqYNeI/dgDuhaIA25dDRZwkNZtAsWWJnT3Nu3s11Lkzc6E1g3OQgg0WT6GQTuBNpV1amHMZaDN7dFtwIvcHy8hCrSHkwuS+s0nUdouIdER6BoilUu9e8UGEb9lU4DERqIkeyOmHAHJl0G01A6LMnmjkN3xqfDcX1dh2zQ5zAmK735SZyFan/NRTS9OjfibYQb3mgveNCc7TVfVpoppHlUs3+Zzkof/xnrY9zmb5MpSvjRT10GlU6BEpaxis0=
-    
+
+deploy:
+- provider: firebase
+  skip_cleanup: true
+  on:
+    branch: master
+  project: devfest-pisa19-debug
+  token:
+    secure: AF8DAjE6idaKhycic2VD5kYzJ8eQH1cnzxxEKD1VozHIGAhofPKrdHFAsibjP7cSazzD0POWKFjPfIeyH31BSCm72eCSODZC3oX0DR8y8ry/769ySTrK6Z9lmdQ+EgQYk3jCpQ6KGq1YxPTnN63ZXs62WjAFfkSjEUGyqgEqt4/dc4924Imlnl4PJLHFfbB3T1XQtPfB8yX6QAY3gnawKmMN6S7+hq1hP3Jh1oCecXOjtZyNQwxPk3aah0E/QE1aNiTPNy4SzvW5aTKDvuklcwAsYf21payB+fPBMjImHgqJ+sY7RjcZzyB/Y8MtbBlwckbYSDqKx0MJFzw63A5ibC6Nr4Uu/fZt1U35cH+HmeaVRskHapQXKXC2HIF3GEDoFXA0f8WFOzz91mStf1S18KfTTbZhpz5Cv9Kt39OdW/ol3cTqqYNeI/dgDuhaIA25dDRZwkNZtAsWWJnT3Nu3s11Lkzc6E1g3OQgg0WT6GQTuBNpV1amHMZaDN7dFtwIvcHy8hCrSHkwuS+s0nUdouIdER6BoilUu9e8UGEb9lU4DERqIkeyOmHAHJl0G01A6LMnmjkN3xqfDcX1dh2zQ5zAmK735SZyFan/NRTS9OjfibYQb3mgveNCc7TVfVpoppHlUs3+Zzkof/xnrY9zmb5MpSvjRT10GlU6BEpaxis0=
