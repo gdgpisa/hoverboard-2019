@@ -68,7 +68,12 @@
       "title": "Event Resources",
       "links": [
         {
-          "name": "Partnership Proposition",
+          "name": "Partnership Proposal (English)",
+          "url": "https://bit.ly/dfpi19-partners-en",
+          "newTab": true
+        },
+        {
+          "name": "Partnership Proposal (Italian)",
           "url": "https://bit.ly/dfpi19-partners",
           "newTab": true
         },
@@ -125,6 +130,10 @@
   "partnersBlock": {
     "title": "Partners",
     "button": "Become a partner",
+    "proposalit": "Read the Proposal 🇮🇹",
+    "proposaliturl": "https://bit.ly/dfpi19-partners",
+    "proposalen": "Read the Proposal 🇬🇧",
+    "proposalenurl": "https://bit.ly/dfpi19-partners-en",
     "form": {
       "title": "Become a partner!",
       "submitLabel": "Submit",
