@@ -41,4 +41,5 @@ We're so excited for the upcoming DevFest! 💪 Can't wait to enjoy this amazing
 Any questions? Email us at [pisagdg@gmail.com](mailto:pisagdg+devfest@gmail.com) or reach out on our social channels!
 
 Looking forward to see you on April 13th!
+
 DevFest Pisa Orga team.
