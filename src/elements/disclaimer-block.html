@@ -1,0 +1,60 @@
+<link rel="import" href="../../bower_components/polymer/polymer-element.html">
+
+<link rel="import" href="../../bower_components/iron-icon/iron-icon.html">
+<link rel="import" href="../../bower_components/paper-button/paper-button.html">
+<link rel="import" href="../../bower_components/marked-element/marked-element.html">
+<link rel="import" href="../../bower_components/plastic-image/plastic-image.html">
+
+<link rel="import" href="../mixins/redux-mixin.html">
+<link rel="import" href="hoverboard-icons.html">
+
+<dom-module id="disclaimer-block">
+  <template>
+    <style is="custom-style" include="shared-styles flex flex-alignment positioning"></style>
+
+    <style>
+      :host {
+        display: block;
+        background: var(--primary-color);
+        color: var(--text-primary-color);
+        margin-bottom: 32px;
+      }
+
+      .block:not(:last-of-type) {
+        margin-bottom: 32px;
+      }
+
+      .description {
+        color: var(--secondary-text-color);
+      }
+
+      paper-button {
+        margin: 0;
+      }
+    </style>
+
+    <div class="container container-narrow">
+      <h1 class="container-title">The schedule is not finalized (yet)!</h1>
+      <p>We're still publishing talks and speakers and all the sessions will probably be moved around :)</p>
+    </div>
+  </template>
+
+  <script>
+    class DisclaimerBlock extends ReduxMixin(Polymer.Element) {
+      static get is() {
+        return 'disclaimer-block';
+      }
+
+      static get properties() {
+        return {
+          viewport: {
+            type: Object,
+            statePath: 'ui.viewport',
+          },
+        };
+      }
+    }
+
+    customElements.define(DisclaimerBlock.is, DisclaimerBlock);
+  </script>
+</dom-module>
