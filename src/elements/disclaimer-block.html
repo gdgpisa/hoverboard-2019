@@ -8,15 +8,16 @@
 <link rel="import" href="../mixins/redux-mixin.html">
 <link rel="import" href="hoverboard-icons.html">
 
-<dom-module id="call-to-action-block">
+<dom-module id="disclaimer-block">
   <template>
     <style is="custom-style" include="shared-styles flex flex-alignment positioning"></style>
 
     <style>
       :host {
         display: block;
-        background: #00695c;
+        background: var(--primary-color);
         color: var(--text-primary-color);
+        margin-bottom: 32px;
       }
 
       .block:not(:last-of-type) {
@@ -33,19 +34,15 @@
     </style>
 
     <div class="container container-narrow">
-      <h1 class="container-title">We're publishing the agenda!</h1>
-      <p>You can find the first <strong>speakers</strong> and their <strong>sessions</strong> in the schedule. Make sure you come back to the website while we add them!</p>
-      <p>If you haven't reserved your spot, now it's a good time to <strong>grab a ticket</strong>!
-      <p>
-        <a href="/schedule"><paper-button primary invert>Check the schedule</paper-button></a>
-      </p> 
+      <h1 class="container-title">The schedule is not finalized (yet)!</h1>
+      <p>We're still publishing talks and speakers and all the sessions will probably be moved around :)</p>
     </div>
   </template>
 
   <script>
-    class CallToActionBlock extends ReduxMixin(Polymer.Element) {
+    class DisclaimerBlock extends ReduxMixin(Polymer.Element) {
       static get is() {
-        return 'call-to-action-block';
+        return 'disclaimer-block';
       }
 
       static get properties() {
@@ -56,12 +53,8 @@
           },
         };
       }
-
-      _openC4Psite() {
-        window.open('https://bit.ly/dfpi19-c4p', '_blank');
-      }
     }
 
-    customElements.define(CallToActionBlock.is, CallToActionBlock);
+    customElements.define(DisclaimerBlock.is, DisclaimerBlock);
   </script>
 </dom-module>
