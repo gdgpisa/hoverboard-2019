@@ -19,7 +19,7 @@ Today we are happy to announce our first **eight speakers** 🎉! We are really 
 
 You can check out speakers bio and sessions description in the [Speakers](/speakers) and [Schedule](/schedule) pages.
 
-Finally, if you love what we're doing share this amazing lineup with your friends/colleague ❤️ and don't forget to **grab your ticket**:
+Finally, if you love what we're doing share this amazing lineup with your friends/colleagues ❤️ and don't forget to **grab your ticket**:
 
 <br/>
 <div style="text-align: center;">
