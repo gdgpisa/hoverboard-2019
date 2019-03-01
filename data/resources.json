@@ -167,7 +167,7 @@
     "previousYear": "Year"
   },
   "speakersBlock": {
-    "title": "Features speakers",
+    "title": "Featured speakers",
     "callToAction": {
       "label": "View all speakers",
       "link": "/speakers/"
