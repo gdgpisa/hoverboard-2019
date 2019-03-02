@@ -221,7 +221,7 @@
       }
 
       _getEveningTimePosition(timeslotIndex) {
-        return `${timeslotIndex + 1 + 6} / 1`;
+        return `${timeslotIndex + 1 + 7} / 1`;
       }
 
       _splitText(text, divider, index) {
@@ -238,8 +238,8 @@
 
       _computeEveningGridArea(gridArea) {
         let split = gridArea.split(` `);
-        let toReturn = parseInt(split[0] - 6) + ` / ` + split[2] + ` / `;
-        toReturn += parseInt(split[4] - 6) + ` / ` + split[6];
+        let toReturn = parseInt(split[0] - 7) + ` / ` + split[2] + ` / `;
+        toReturn += parseInt(split[4] - 7) + ` / ` + split[6];
         return toReturn;
       }
 
