@@ -216,6 +216,7 @@
   },
   "sessionDetails": {
     "contentLevel": "Content level",
+    "language": "Language",
     "viewPresentation": "View presentation",
     "viewVideo": "View video",
     "speakers": "Speakers"
