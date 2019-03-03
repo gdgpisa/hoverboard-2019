@@ -1,6 +1,6 @@
 Hi everyone,
 
-We hope you all enjoyed our first speakers announced last week 💪 Today we're happy to add **16 more speakers** and **14 sessions** that will make the DevFest Pisa 2019 an rocket event 🚀!
+We hope you all enjoyed our first speakers announced last week 💪 Today we're happy to add **16 more speakers** and **14 sessions** that will make the DevFest Pisa 2019 a rocket event 🚀!
 
 Please welcome on stage 👏
 
