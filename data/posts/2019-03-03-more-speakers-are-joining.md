@@ -6,7 +6,7 @@ Please welcome on stage 👏
 
 * [**Sergey Ryabov**](/speakers/sergey_ryabov/) (Facebook - London 🇬🇧) - [How to cook a well-done MVI for Android](/schedule/2019-04-13?sessionId=233)
 * [**Aygul Zagidullina**](/speakers/aygul_zagidullina/) & [**Kaan Mamikoglu**](/speakers/kaan_mamikoglu) (Google Developer Expert for Assistant/Firebase - London 🇬🇧) - [Zero to App: Introduction to Building Apps for the Google Assistant](/schedule/2019-04-13?sessionId=212)
-* [**Kenichi Kambara**](/speakers/kenichi_kambara/) (iPlatform - Tokio 🇯🇵) - [Best Practices and Tips in Flutter App Development](/schedule/2019-04-13?sessionId=222)
+* [**Kenichi Kambara**](/speakers/kenichi_kambara/) (iPlatform - Tokyo 🇯🇵) - [Best Practices and Tips in Flutter App Development](/schedule/2019-04-13?sessionId=222)
 * [**Federico Paolinelli**](/speakers/federico_paolinelli/) (List - Pisa 🇮🇹) - [Fast Messaging with Go and Nats](/schedule/2019-04-13?sessionId=216)
 * [**Boris D'Amato**](/speakers/boris_damato/) (ClearScore - London 🇬🇧) - [Networking the Kotlin way: Retrofit + Coroutines](/schedule/2019-04-13?sessionId=213)
 * [**Luca Deri**](/speakers/luca_deri/) & [**Samuele Sabella**](/speakers/samuele_sabella) (Ntop - Pisa 🇮🇹) - [Enabling Network and System Visibility using Go and eBPF](/schedule/2019-04-13?sessionId=224)
