@@ -105,11 +105,11 @@
     "statisticsBlock": {
       "attendees": {
         "label": "Attendees",
-        "number": "250+"
+        "number": "300+"
       },
       "days": {
         "label": "Speakers",
-        "number": "16"
+        "number": "25+"
       },
       "sessions": {
         "label": "Tracks",
@@ -117,7 +117,7 @@
       },
       "tracks": {
         "label": "Sessions",
-        "number": "20"
+        "number": "25+"
       }
     }
   },
@@ -216,6 +216,7 @@
   },
   "sessionDetails": {
     "contentLevel": "Content level",
+    "language": "Language",
     "viewPresentation": "View presentation",
     "viewVideo": "View video",
     "speakers": "Speakers"

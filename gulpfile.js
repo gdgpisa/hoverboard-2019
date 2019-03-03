@@ -151,7 +151,7 @@ function lint() {
     'index.html',
   ])
     .pipe(eslint())
-    .pipe(eslint.format(friendlyFormatter))
+    .pipe(eslint.format())
     .pipe(eslint.failAfterError());
 }
 

@@ -27,7 +27,7 @@
     "locale": "en-US"
   },
   "hashtag": "DevFestPisa",
-  "disabledSchedule": true,
+  "disabledSchedule": false,
   "navigation": [
     {
       "route": "home",

@@ -68,10 +68,12 @@
             on-tap="_toggleFeaturedSession"
           ></paper-fab>
         </div>
-        <h3 class="meta-info" hidden$="[[disabledSchedule]]">[[session.dateReadable]], [[session.startTime]] - [[session.endTime]]</h3>
+        <h3 class="meta-info" hidden$="[[disabledSchedule]]">[[session.startTime]] - [[session.endTime]]</h3>
         <h3 class="meta-info" hidden$="[[disabledSchedule]]">[[session.track.title]]</h3>
         <h3 class="meta-info" hidden$="[[!session.complexity]]">{$ sessionDetails.contentLevel $}:
           [[session.complexity]]</h3>
+        <h3 class="meta-info" hidden$="[[!session.complexity]]">{$ sessionDetails.language $}:
+          [[session.language]]</h3>
 
         <marked-element class="description" markdown="[[session.description]]">
           <div slot="markdown-html"></div>
@@ -140,7 +142,7 @@
         return {
           disabledSchedule: {
             type: Boolean,
-            value: () => JSON.parse('{$ disabledSchedule $}'),
+            value: false,
           },
           session: {
             type: Object,
