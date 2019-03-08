@@ -1,6 +1,6 @@
 Hi everyone,
 
-We're happy to share that at DevFest Pisa we will celebrate the **IWD** (International Woman Day), recurring every year on the 8th of March 👩‍💻 We decided to celebrate this event having a space to talk about *Diversity & Inclusion*, *Soft Skills* and whatever is not *techy* (as we already have enough talks about technology 😅).
+We're happy to share that at DevFest Pisa we will celebrate the **IWD** (International Woman Day), recurring every year on the 8th of March 👩‍💻 We decided to celebrate this event having a space to talk about *Diversity & Inclusion*, *Soft Skills* and whatever is not *techy*.
 
 Today we're happy to share our **Soft track** a series of soft talks, that will take place on the morning of April 13th in the Room **PS4**. You will find the sessions marked in **blue** in the [schedule](/schedule).
 
@@ -10,7 +10,6 @@ We want to say a huge **thanks** to the speakers that submitted soft talks to ou
 * [**Philipp Krenn**](/speakers/philipp_krenn) (Elastic - Vienna 🇦🇹) - [Building Distributed Systems in Distributed Teams](/schedule/2019-04-13?sessionId=232)
 * [**Gregorio Palama**](/speakers/gregorio_palama) (Aesys - Pescara 🇮🇹) - [Why Public Speaking, master Wayne?](/schedule/2019-04-13?sessionId=221)
 * [**Martin Splitt**](/speakers/martin_splitt) (Google - Zurich 🇨🇭) - [How to un-suck the tech community](/schedule/2019-04-13?sessionId=227)
-* [**Francesco Romano**](/speakers/francesco_romano) (Huawei - Munich 🇩🇪) - [Show me your face: facial recognition made easy for Android](/schedule/2019-04-13?sessionId=219)
 
 As always, you can check out speakers bio and sessions description in the [Speakers](/speakers) and [Schedule](/schedule) pages (marked in blue).
 
