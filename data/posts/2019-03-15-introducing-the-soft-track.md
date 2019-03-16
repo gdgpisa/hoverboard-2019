@@ -14,7 +14,8 @@ We want to say a huge **thanks** to the speakers that submitted soft talks to ou
 Moreover we're announcing also our **lightning talks**, a series of small **10 minutes** bite size talks:
 
 * [**Diana Bernabei**](/speakers/diana_bernabei) (GDG Pisa 🇮🇹) - [How to give a talk - Come tenere un talk?](/schedule/2019-04-13?sessionId=214)
-* [**Federico Paolinelli**](/speakers/federico_paolinelli) (List Group, Pisa 🇮🇹) - [Athens, the new place for your Go dependenceis](/schedule/2019-04-13?sessionId=214)
+* [**Paolo Botti**](/speakers/paolo_botti) (TD Group, Pisa 🇮🇹) - [Rest API in Golang con MongoDB](/schedule/2019-04-13?sessionId=214)
+* [**Federico Paolinelli**](/speakers/federico_paolinelli) (List Group, Pisa 🇮🇹) - [Athens, the new place for your Go dependencies](/schedule/2019-04-13?sessionId=214)
 
 As always, you can check out speakers bio and sessions description in the [Speakers](/speakers) and [Schedule](/schedule) pages (marked in blue).
 
