@@ -1,6 +1,6 @@
 Hi everyone,
 
-We're happy to share that at DevFest Pisa we will celebrate the **IWD** (International Woman Day), recurring every year on the 8th of March 👩‍💻 We decided to celebrate this event having a space to talk about *Diversity & Inclusion*, *Soft Skills* and whatever is not *techy*.
+We crafted our DevFest to be an occasion for everyone to speak and to **share a story**. We reserved a special place in the agenda to talk about *Diversity & Inclusion*, *Soft Skills* and whatever is not *techy*.
 
 Today we're happy to share our **Soft track** a series of soft talks, that will take place on the morning of April 13th in the Room **PS4**. You will find the sessions marked in **blue** in the [schedule](/schedule).
 
@@ -10,6 +10,11 @@ We want to say a huge **thanks** to the speakers that submitted soft talks to ou
 * [**Philipp Krenn**](/speakers/philipp_krenn) (Elastic - Vienna 🇦🇹) - [Building Distributed Systems in Distributed Teams](/schedule/2019-04-13?sessionId=232)
 * [**Gregorio Palama**](/speakers/gregorio_palama) (Aesys - Pescara 🇮🇹) - [Why Public Speaking, master Wayne?](/schedule/2019-04-13?sessionId=221)
 * [**Martin Splitt**](/speakers/martin_splitt) (Google - Zurich 🇨🇭) - [How to un-suck the tech community](/schedule/2019-04-13?sessionId=227)
+
+Moreover we're announcing also our **lightning talks**, a series of small **10 minutes** bite size talks:
+
+* [**Diana Bernabei**](/speakers/diana_bernabei) (GDG Pisa 🇮🇹) - [How to give a talk - Come tenere un talk?](/schedule/2019-04-13?sessionId=214)
+* [**Federico Paolinelli**](/speakers/federico_paolinelli) (List Group, Pisa 🇮🇹) - [Athens, the new place for your Go dependenceis](/schedule/2019-04-13?sessionId=214)
 
 As always, you can check out speakers bio and sessions description in the [Speakers](/speakers) and [Schedule](/schedule) pages (marked in blue).
 
