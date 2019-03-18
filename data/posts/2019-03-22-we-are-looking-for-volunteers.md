@@ -25,7 +25,7 @@ Per participare è sufficiente completare il form che trovate premendo sul botto
 
 <br/>
 <div style="text-align: center;">
-<a href="http://bit.ly/dfpi19-tickets" target="_blank" class="style-scope header-content">
+<a href="http://bit.ly/dfpi19-volunteer" target="_blank" class="style-scope header-content">
   <paper-button primary animated role="button" tabindex="0">Diventa un volontario</paper-button>
 </a>
 </div>
