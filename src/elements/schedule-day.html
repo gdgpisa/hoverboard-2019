@@ -129,7 +129,8 @@
       </template>
     </div>
 
-    <div class="grid" style$="--tracks-number: 3;">
+    <!-- <div class="grid" style$="--tracks-number: 4;"> -->
+      <div class="grid" style$="--tracks-number: [[day.tracks.length]];">
       <template is="dom-repeat" items="[[day.timeslots]]" as="timeslot" index-as="timeslotIndex" filter="_isEvening">
         <div id$="[[timeslot.startTime]]" class="start-time" style$="grid-area: [[_getTimePosition(timeslotIndex)]]">
           <span class="hours">[[_splitText(timeslot.startTime, ':', 0)]]</span>
@@ -221,7 +222,7 @@
       }
 
       _getEveningTimePosition(timeslotIndex) {
-        return `${timeslotIndex + 1 + 6} / 1`;
+        return `${timeslotIndex + 1 + 7} / 1`;
       }
 
       _splitText(text, divider, index) {
@@ -238,8 +239,8 @@
 
       _computeEveningGridArea(gridArea) {
         let split = gridArea.split(` `);
-        let toReturn = parseInt(split[0] - 6) + ` / ` + split[2] + ` / `;
-        toReturn += parseInt(split[4] - 6) + ` / ` + split[6];
+        let toReturn = parseInt(split[0] - 7) + ` / ` + split[2] + ` / `;
+        toReturn += parseInt(split[4] - 7) + ` / ` + split[6];
         return toReturn;
       }
 
