@@ -1,8 +1,8 @@
 Hi everyone,
 
-DevFest Pisa will not be only talks and tech sessions. We want to give you the possibility to learn something new, and to **touch with your hands** some new technologies.
+DevFest Pisa will not be only talks and tech sessions. We want to give you the possibility to learn something new, and to **have first-hand experience** with some new technologies.
 
-Today we're happy to add **5 workshops** to our lineup! Those workshops will allow you to get in touch with new technologies such as AR, Sensors, PWAs, MVVM and Machine Learning.
+Today we're happy to add **5 workshops** to our lineup! Those workshops will allow you to dabble in new technologies such as AR, Sensors, PWAs, MVVM and Machine Learning.
 
 Please note that those workshops requires you to do an **extra registration** (you need to get the DevFest ticket AND the workshop ticket). This is to make sure the number of participants to each workshop is limited and we allow the speaker to have time to support everyone.
 
