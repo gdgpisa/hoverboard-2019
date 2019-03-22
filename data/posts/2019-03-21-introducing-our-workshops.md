@@ -49,7 +49,7 @@ Language: English<br/>
 
 ## Make your app smarter – Hands On
 
-[Details](/schedule/2019-04-13?sessionId=208)<br/>
+[Details](/schedule/2019-04-13?sessionId=235)<br/>
 Speaker: [**Francesco Romano**](/speakers/francesco_romano) (Huawei - Munich 🇩🇪)<br/>
 Content level: Beginner<br/>
 Language: English<br/>
