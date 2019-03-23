@@ -1,8 +1,7 @@
 Hi everyone,
 (_To get a broader local audience, we're going to post this in italian :)_)
 
-Fra qualche settimana potremmo goderci assieme questo grande evento 
-pieno di **community**, **tecnologia**, **networking** e tanto divertimento!
+Fra qualche settimana potremmo goderci assieme DevFest Pisa 2019, questo grande evento pieno di **community**, **tecnologia**, **networking** e tanto divertimento!
 
 Ci teniamo a ricordare che la DevFest è organizzata interamente su **base volontaria**. Purtroppo non possiamo permetterci di *assumere* dipendenti che ci diano una mano durante l'evento. Per questo motivo che stiamo cercando persone che ci possano **aiutare** il giorno dell'evento per rendere questa DevFest Pisa ancora più fantastica!
 
