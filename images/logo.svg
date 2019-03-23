@@ -39,11 +39,11 @@
      inkscape:window-height="798"
      id="namedview45"
      showgrid="false"
-     inkscape:zoom="1"
-     inkscape:cx="340.01466"
-     inkscape:cy="81.5"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:zoom="5.6568542"
+     inkscape:cx="83.277565"
+     inkscape:cy="105.56884"
+     inkscape:window-x="293"
+     inkscape:window-y="19"
      inkscape:window-maximized="0"
      inkscape:current-layer="svg43" />
   <defs
@@ -149,28 +149,32 @@
        id="path3791"
        inkscape:connector-curvature="0" />
   </g>
-  <polygon
-     style="fill:none;stroke:#5374b2;stroke-width:4px;stroke-miterlimit:10"
-     id="polygon34"
-     points="133.65,102.8 124.09,119.18 60.75,17.07 81.5,17.07 "
-     class="cls-8"
-     transform="translate(-53.759708,-6.5)" />
-  <path
-     style="fill:none;stroke:#d1362e;stroke-width:4px;stroke-miterlimit:10"
-     inkscape:connector-curvature="0"
-     id="path36"
-     d="m 54.240292,10.57 c 0,0 33,48.87 37.13,59 4.13,10.13 -7.13,20.72 -7.13,20.72 l -49.4,-79.72 z"
-     class="cls-9" />
-  <polygon
-     style="fill:none;stroke:#2a9c53;stroke-width:4px;stroke-miterlimit:10"
-     id="polygon38"
-     points="107.16,104.98 97.2,88.87 59.38,145.93 80.95,145.93 "
-     class="cls-10"
-     transform="translate(-53.759708,-6.5)" />
-  <polygon
-     style="fill:none;stroke:#f1c948;stroke-width:4px;stroke-miterlimit:10"
-     id="polygon40"
-     points="120.27,125.18 109.89,110.99 87.5,145.93 108.25,145.93 "
-     class="cls-11"
-     transform="translate(-53.759708,-6.5)" />
+  <g
+     id="g852"
+     transform="translate(65.905715,2.7742135)">
+    <polygon
+       class="cls-8"
+       points="124.09,119.18 60.75,17.07 81.5,17.07 133.65,102.8 "
+       id="polygon34-7"
+       style="fill:none;stroke:#5374b2;stroke-width:4px;stroke-miterlimit:10"
+       transform="translate(-119.74253,-8.5)" />
+    <path
+       class="cls-9"
+       d="m -11.74253,8.57 c 0,0 33,48.87 37.13,59 1.75,4.31 -0.22,7.32 -2,11 -2.37,4.89 -5.76,10.36 -5.76,10.36 l -48.77,-80.36 z"
+       id="path36-9"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#d1362e;stroke-width:4px;stroke-miterlimit:10" />
+    <polygon
+       class="cls-10"
+       points="97.2,87.87 59.38,145.93 81.95,145.93 107.16,103.98 "
+       id="polygon38-3"
+       style="fill:none;stroke:#2a9c53;stroke-width:4px;stroke-miterlimit:10"
+       transform="translate(-119.74253,-8.5)" />
+    <polygon
+       class="cls-11"
+       points="110.98,109.59 89.17,145.77 109.35,145.53 120.36,124.78 "
+       id="polygon40-8"
+       style="fill:none;stroke:#f1c948;stroke-width:4px;stroke-miterlimit:10"
+       transform="translate(-119.74253,-8.5)" />
+  </g>
 </svg>
