@@ -30,4 +30,4 @@ Those points don't stand true for all of us.
 <br/>
 👭👭👭👭👭👭👭👭👭👭👭👭👭👭👭👭👭👭👭 
 
-DevFest Pisa Orga team.
+WTM Pisa
