@@ -7,8 +7,8 @@ The event, also this year, will be @ [Polo Fibonacci](https://goo.gl/maps/MufkLT
 
 ## Schedule
 
-* [**Diana Bernabei**](/speakers/diana_bernabei) (GDG Pisa🇮🇹) - [How to give a talk - Come tenere un talk?](/schedule/2019-04-13?sessionId=214)
-* [**WTM Pisa**](https://gdgpisa.it/wtm) (GDG Pisa🇮🇹) - [IWD Celebration](https://devfest.gdgpisa.it/schedule/2019-04-13?sessionId=100)
+* [**Diana Bernabei**](/speakers/diana_bernabei) (GDG Pisa 🇮🇹) - [How to give a talk - Come tenere un talk?](/schedule/2019-04-13?sessionId=214)
+* [**WTM Pisa**](https://gdgpisa.it/wtm) (GDG Pisa 🇮🇹) - [IWD Celebration](https://devfest.gdgpisa.it/schedule/2019-04-13?sessionId=100)
 
 ![wtm](/images/wtm-logo.png)
 
