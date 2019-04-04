@@ -16,8 +16,8 @@
       ]
     }
   },
-  "startDate": "2019-04-13T08:00:00+01:00",
-  "endDate": "2019-04-13T22:00:00+01:00",
+  "startDate": "2019-04-13T08:00:00+02:00",
+  "endDate": "2019-04-13T22:00:00+02:00",
   "webapp": {
     "shortName": "DevFest Pisa",
     "themeColor": "#1A237E",
