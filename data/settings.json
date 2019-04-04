@@ -35,6 +35,11 @@
       "label": "Home"
     },
     {
+      "route": "blog",
+      "permalink": "/blog/",
+      "label": "Blog"
+    },
+    {
       "route": "speakers",
       "permalink": "/speakers/",
       "label": "Speakers"
@@ -45,14 +50,19 @@
       "label": "Schedule"
     },
     {
+      "route": "location",
+      "permalink": "/location/",
+      "label": "Location"
+    },
+    {
+      "route": "faq",
+      "permalink": "/faq/",
+      "label": "FAQ"
+    },
+    {
       "route": "team",
       "permalink": "/team/",
       "label": "Team"
-    },
-    {
-      "route": "blog",
-      "permalink": "/blog/",
-      "label": "Blog"
     }
   ],
   "heroSettings": {
@@ -100,6 +110,24 @@
     "cod": {
       "title": "Code Of Conduct",
       "metaDescription": "Lear more about our expectations for all those who participate in our community",
+      "background": {
+        "color": "#fff"
+      },
+      "fontColor": "#424242"
+    },
+    "faq": {
+      "title": "FAQ",
+      "metaDescription": "Please find in this page, all the answers to the Frequently Asked Questions about DevFest Pisa 2019",
+      "description": "Please find in this page, all the answers to the Frequently Asked Questions about DevFest Pisa 2019",
+      "background": {
+        "color": "#fff"
+      },
+      "fontColor": "#424242"
+    },
+    "location": {
+      "title": "Location",
+      "metaDescription": "Please find directions and address of the venue on this page",
+      "description": "Please find directions and address of the venue on this page",
       "background": {
         "color": "#fff"
       },
