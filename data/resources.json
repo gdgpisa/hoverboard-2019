@@ -112,19 +112,19 @@
     "statisticsBlock": {
       "attendees": {
         "label": "Attendees",
-        "number": "300+"
+        "number": "400+"
       },
       "days": {
         "label": "Speakers",
-        "number": "25+"
+        "number": "40"
       },
       "sessions": {
         "label": "Tracks",
-        "number": "3"
+        "number": "4"
       },
       "tracks": {
         "label": "Sessions",
-        "number": "25+"
+        "number": "36"
       }
     }
   },
