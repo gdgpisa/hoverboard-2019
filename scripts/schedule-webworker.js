@@ -13,9 +13,9 @@ function getEndTime(date, startTime, endTime, totalNumber, number) {
   result.setTime(result.getTime() - result.getTimezoneOffset() * 60 * 1000);
   var minutes = 0;
   if (result.getMinutes() < 10) {
-    minutes = "0" + result.getMinutes();
+    minutes = '0' + result.getMinutes();
   } else {
-    minutes = "" + result.getMinutes();
+    minutes = '' + result.getMinutes();
   }
   return result.getHours() + ':' + minutes;
 }
