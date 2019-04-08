@@ -49,3 +49,9 @@ Yes, we have some swags for all the participants + some giveaways to give as a r
 ### Are the sessions recorded?
 
 No, we are not recording/live-streaming the sessions.
+
+### What is the Job Wall?   
+The job wall is a pin board where you're free to post your job openings. Rules for the Job wall are here: [Introducing the Job Wall](/blog/posts/introducing-the-job-wall/).   
+
+### What is the Beer Party?    
+The beer party is a party event we organized for the DevFest Pisa attendees. You're all invited. It will be at "Lo Spaventapasseri", all the details are here: [There Will Be No DevFest Without A Networking Beer!](http://devfest.gdgpisa.it/blog/posts/there-will-be-no-devfest-without-networking-beer/)
