@@ -76,7 +76,6 @@ const scheduleNotifications = functions.pubsub.topic('schedule-tick').onPublish(
 
     const schedule = scheduleSnapshot.docs.reduce((acc, doc) => ({ ...acc, [doc.id]: doc.data() }), {});
     const todayDay = moment().utcOffset(notificationsConfig.timezone).format('YYYY-MM-DD');
-    console.log("### Schedule today timeslots: "+schedule[todayDay].timeslots);
     if (schedule[todayDay]) {
       const beforeTime = moment().subtract(3, 'minutes');
       const afterTime = moment().add(3, 'minutes');
@@ -84,11 +83,10 @@ const scheduleNotifications = functions.pubsub.topic('schedule-tick').onPublish(
       const upcomingTimeslot = schedule[todayDay].timeslots
         .filter(timeslot => {
           const timeslotTime = moment(`${timeslot.startTime}${notificationsConfig.timezone}`, `${FORMAT}Z`).subtract(10, 'minutes');
-          console.log("### Schedule Notifications effettuata "+beforeTime+afterTime);
+          console.log("### Schedule Notifications effettuata");
           return timeslotTime.isBetween(beforeTime, afterTime);
         });
       
-      console.log("### current"+current);
       const upcomingSessions = upcomingTimeslot.reduce((result, timeslot) =>
         timeslot.sessions.reduce((aggregatedSessions, current) => [...aggregatedSessions, ...current.items], []));
       const usersIdsSnapshot = await firestore().collection('featuredSessions').get();
