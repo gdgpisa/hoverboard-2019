@@ -90,7 +90,6 @@ const scheduleNotifications = functions.pubsub.topic('schedule-tick').onPublish(
       console.log("### current"+current);
       const upcomingSessions = upcomingTimeslot.reduce((result, timeslot) =>
         timeslot.sessions.reduce((aggregatedSessions, current) => [...aggregatedSessions, ...current.items], []));
-        console.log("### aggregatedSession"+aggregatedSessions);
       const usersIdsSnapshot = await firestore().collection('featuredSessions').get();
       
       upcomingSessions.forEach(async (upcomingSession, sessionIndex) => {
