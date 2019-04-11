@@ -24,20 +24,26 @@ const removeUserTokens = tokensToUsers => {
       .get(ref)
       .then(doc => {
         if (!doc.exists) {
+          console.log("### Doc doesn't exists");
           return;
         }
 
         const val = doc.data();
+        console.log("### Val "+val)
         const newVal = Object.keys(val).reduce((acc, token) => {
-          if (tokensToUsers[token]) return acc;
-
+          if (tokensToUsers[token]){console.log("### "+tokensToUsers[token]); return acc;}
+          console.log("### not tokensToUsers ");
           return { ...acc, [token]: true };
         }, {});
 
+        console.log("### Transaction is going to set newVal");
         transaction.set(newVal);
+        console.log("### newVal "+newVal);
       })
     );
   });
+
+  console.log(promises);
 
   return Promise.all(promises);
 };
