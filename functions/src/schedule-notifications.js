@@ -84,6 +84,7 @@ const scheduleNotifications = functions.pubsub.topic('schedule-tick').onPublish(
       const upcomingTimeslot = schedule[todayDay].timeslots
         .filter(timeslot => {
           const timeslotTime = moment(`${timeslot.startTime}${notificationsConfig.timezone}`, `${FORMAT}Z`).subtract(10, 'minutes');
+          console.log("### Schedule Notifications effettuata "+beforeTime+afterTime);
           return timeslotTime.isBetween(beforeTime, afterTime);
         });
       
