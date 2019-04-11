@@ -17,14 +17,12 @@ const sendPushNotificationToUsers = async (userIds, payload) => {
     console.log('# tokens inner', tokens);
     console.log('# aggregator inner', aggregator);
     console.log('# userTokens inner', userTokens);
-
-    const toReturn = { ...aggregator, tokens };
+    const toReturn = { ...aggregator, ...tokens };
     console.log('# toReturn inner', toReturn);
-    
     return toReturn;
   }, {});
-  const tokens = Object.keys(tokensToUsers.tokens);
   console.log('# tokensToUsers', tokensToUsers);
+  const tokens = Object.keys(tokensToUsers);
   console.log('# tokens (keys)', tokens);
 
   const tokensToRemove = {};
@@ -55,12 +53,15 @@ const triggerNotifications = functions.https.onRequest(async () => {
     const schedule = scheduleSnapshot.docs.reduce((acc, doc) => ({ ...acc, [doc.id]: doc.data() }), {});
     const todayDay = moment().utcOffset(notificationsConfig.timezone).format('YYYY-MM-DD');
     if (schedule[todayDay]) {
-      const beforeTime = moment().subtract(90, 'minutes');
-      const afterTime = moment().add(90, 'minutes');
+      const beforeTime = moment().subtract(3, 'minutes');
+      const afterTime = moment().add(3, 'minutes');
 
       const upcomingTimeslot = schedule[todayDay].timeslots
         .filter(timeslot => {
           const timeslotTime = moment(`${timeslot.startTime}${notificationsConfig.timezone}`, `${FORMAT}Z`).subtract(10, 'minutes');
+          console.log("@@@ Filtering ", timeslotTime);
+          console.log("@@@ Filtering ", `${timeslot.startTime}${notificationsConfig.timezone}`);
+          console.log("@@@ isBetween ", beforeTime, afterTime, timeslotTime.isBetween(beforeTime, afterTime));
           return timeslotTime.isBetween(beforeTime, afterTime);
         });
       const upcomingSessions = upcomingTimeslot.reduce((result, timeslot) =>
@@ -91,7 +92,7 @@ const triggerNotifications = functions.https.onRequest(async () => {
 
         if (userIdsFeaturedSession.length) {
           console.log('### Sending push notification');
-          return sendPushNotificationToUsers(userIdsFeaturedSession, {
+          sendPushNotificationToUsers(userIdsFeaturedSession, {
             data: {
               title: session.title,
               body: `Starts ${fromNow}`,
@@ -103,12 +104,15 @@ const triggerNotifications = functions.https.onRequest(async () => {
 
         if (upcomingSessions.length) {
           console.log('Upcoming sessions', upcomingSessions);
+          res.status(200).send("Success - Upcoming sessions" + upcomingSessions);
         } else {
           console.log('There is no sessions right now');
+          res.status(200).send("Success - There is no sessions right now :)");
         }
       });
     } else {
       console.log(todayDay, 'was not found in the schedule')
+      res.status(200).send("Success - was not found in the schedule :)");
     }
   }
 );
