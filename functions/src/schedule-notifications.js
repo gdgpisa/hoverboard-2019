@@ -129,7 +129,7 @@ const scheduleNotifications = functions.pubsub.topic('schedule-tick').onPublish(
         } else {
           console.log('There is no sessions right now');
         }
-      }).catch((e)=>{console.error(e)});
+      });
     } else {
       console.log(todayDay, 'was not found in the schedule')
     }
