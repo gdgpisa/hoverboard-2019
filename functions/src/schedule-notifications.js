@@ -76,7 +76,7 @@ const scheduleNotifications = functions.pubsub.topic('schedule-tick').onPublish(
 
     const schedule = scheduleSnapshot.docs.reduce((acc, doc) => ({ ...acc, [doc.id]: doc.data() }), {});
     const todayDay = moment().utcOffset(notificationsConfig.timezone).format('YYYY-MM-DD');
-    console.log("### Schedule today: "+schedule[todayDay].timeslots);
+    console.log("### Schedule today timeslots: "+schedule[todayDay].timeslots);
     if (schedule[todayDay]) {
       const beforeTime = moment().subtract(3, 'minutes');
       const afterTime = moment().add(3, 'minutes');
