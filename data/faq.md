@@ -2,6 +2,14 @@ Just few days to the biggest event of the GDG Pisa but... are you ready? 🤔 We
 
  Anyway we are alway open to solve any other doubt you could have, feel free to [contact us](mailto:pisagdg+devfest@gmail.com) in that case.
 
+### How do I get there?
+
+You can easily reach **Polo Fibonacci** with public transportation or just by walking. Please check the [location page](/location) where you can find further details.
+
+### Where is "Aula N"?
+
+Please note that this year DevFest Pisa will be in **two near buildings**. Please checkout the [map page](/map) to better understand where every room is located.
+
 ### Do I need a ticket to join DevFest Pisa?
 
 Yes, participation to the DevFest is **free**, but registration is **mandatory**. Being in the waiting list is not sufficient to participate to the conference.
@@ -26,9 +34,9 @@ Yes, but you need to tell us about this, and we will take care of voiding your t
 
 Yes, you can always leave the conference and come back whenever you want. To enter the venue you anyway always need your **badge** (you will get it at the entrance).
 
-### I have the codelab ticket but I don't have the DevFest ticket? Can I participate to the codelab only?
+### I have the workshop ticket but I don't have the DevFest ticket? Can I participate to the workshop only?
 
-No, as written in the codelab description, you need a DevFest ticket to join all the sessions (either talks or codelabs).
+No, as written in the workshop description, you need a DevFest ticket to join all the sessions (either talks or workshop).
 
 ### I registered on meetup.com. Is that valid as a ticket?
 
@@ -36,7 +44,7 @@ No, the only valid tickets for eventbrite are the one [available on Eventbrite](
 
 ### What should I carry on to the conference?
 
-**Your ticket**. That's the only necessary thing you shouldn't forget. If you're attending one of our Codelabs, the speakers will let you know if you need to carry on your laptop or not. 
+**Your ticket**. That's the only necessary thing you shouldn't forget. If you're attending one of our Workshops, the speakers will let you know if you need to carry on your laptop or not. 
 
 ### Will I get food/lunch at the DevFest?
 
