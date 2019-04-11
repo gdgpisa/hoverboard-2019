@@ -14,7 +14,7 @@ const removeUserTokens = tokensToUsers => {
 
   const promises = Object.keys(userTokens).map(userId => {
     const ref = firestore().collection('notificationsUsers').doc(userId);
-
+    console.log("### tokensToUsers "+tokensToUsers[token]);
     return firestore.runTransaction(transaction => transaction
       .get(ref)
       .then(doc => {
