@@ -1,3 +1,5 @@
+Are you looking for the **map** of the venue? 🗺 You can find it in the [Map page](/map)!
+
 ## How to get here 🚶‍♀️
 
 The conference will take place at the **University of Pisa** in the **Polo Fibonacci**. Pisa is a small town and you can easily walk around or rely on public transportation if you're coming from far away.
