@@ -68,15 +68,14 @@ const sendPushNotificationToUsers = async (userIds, payload) => {
 };
 
 const scheduleNotifications = functions.pubsub.topic('schedule-tick').onPublish(async () => {
-    const notificationsConfigPromise = firestore().collection('config').doc('notifications').get();
-    const schedulePromise = firestore().collection('schedule').get();
+    const notificationsConfigPromise = firestore({"timestampsInSnapshots":true}).collection('config').doc('notifications').get();
+    const schedulePromise = firestore({"timestampsInSnapshots":true}).collection('schedule').get();
 
     const [notificationsConfigSnapshot, scheduleSnapshot] = await Promise.all([notificationsConfigPromise, schedulePromise]);
     const notificationsConfig = notificationsConfigSnapshot.exists ? notificationsConfigSnapshot.data() : {};
 
     const schedule = scheduleSnapshot.docs.reduce((acc, doc) => ({ ...acc, [doc.id]: doc.data() }), {});
     const todayDay = moment().utcOffset(notificationsConfig.timezone).format('YYYY-MM-DD');
-    console.log("###Line 78### "+todayDay);
 
     if (schedule[todayDay]) {
       const beforeTime = moment().subtract(3, 'minutes');
@@ -85,7 +84,6 @@ const scheduleNotifications = functions.pubsub.topic('schedule-tick').onPublish(
       const upcomingTimeslot = schedule[todayDay].timeslots
         .filter(timeslot => {
           const timeslotTime = moment(`${timeslot.startTime}${notificationsConfig.timezone}`, `${FORMAT}Z`).subtract(10, 'minutes');
-          console.log("###Line 87### "+timeslotTime)
           return timeslotTime.isBetween(beforeTime, afterTime);
         });
 
@@ -110,7 +108,8 @@ const scheduleNotifications = functions.pubsub.topic('schedule-tick').onPublish(
         const fromNow = end.fromNow();
 
         if (userIdsFeaturedSession.length) {
-          console.log('###Line 114### Starts ${fromNow}');
+          console.log('###Line 114### Starts '+fromNow);
+          console.log("Session Index: "+sessionIndex+upcomingSession[sessionIndex]);
           return sendPushNotificationToUsers(userIdsFeaturedSession, {
             data: {
               title: session.title,
