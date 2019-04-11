@@ -13,10 +13,14 @@ const removeUserTokens = tokensToUsers => {
   }, {});
 
   const promises = Object.keys(userTokens).map(userId => {
+    
     console.log("Trying to obrain Users tokens");
-    const ref = firestore().collection('notificationsUsers').doc(userId);
-    console.log("### tokensToUsers "+tokensToUsers[token]);
-    return firestore.runTransaction(transaction => transaction
+    
+    const ref = firestore().collection('notificationsUsers').doc(String(userId));
+    
+    console.log("### tokensToUsers ");
+
+    return firestore().runTransaction(transaction => transaction
       .get(ref)
       .then(doc => {
         if (!doc.exists) {
@@ -94,8 +98,8 @@ const scheduleNotifications = functions.pubsub.topic('schedule-tick').onPublish(
       upcomingSessions.forEach(async (upcomingSession, sessionIndex) => {
         console.log("### SessionIndex "+sessionIndex);
         console.log("### UpcomingSessions "+upcomingSession);
-        const sessionInfoSnapshot = await firestore().collection('sessions').doc(upcomingSession).get();
-        sessionInfoSnapshot.then((r)=>{console.log(r)});
+        const sessionInfoSnapshot = await firestore().collection('sessions').doc(String(upcomingSession)).get();
+        console.log("### sessionInfoSnapshot");
         if (!sessionInfoSnapshot.exists) return;
 
         const usersIds = usersIdsSnapshot.docs.reduce((acc, doc) => ({ ...acc, [doc.id]: doc.data() }), {});
