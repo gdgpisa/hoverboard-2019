@@ -68,8 +68,8 @@ const sendPushNotificationToUsers = async (userIds, payload) => {
 };
 
 const scheduleNotifications = functions.pubsub.topic('schedule-tick').onPublish(async () => {
-    const notificationsConfigPromise = firestore({"timestampsInSnapshots":true}).collection('config').doc('notifications').get();
-    const schedulePromise = firestore({"timestampsInSnapshots":true}).collection('schedule').get();
+    const notificationsConfigPromise = firestore().collection('config').doc('notifications').get();
+    const schedulePromise = firestore().collection('schedule').get();
 
     const [notificationsConfigSnapshot, scheduleSnapshot] = await Promise.all([notificationsConfigPromise, schedulePromise]);
     const notificationsConfig = notificationsConfigSnapshot.exists ? notificationsConfigSnapshot.data() : {};
@@ -90,8 +90,10 @@ const scheduleNotifications = functions.pubsub.topic('schedule-tick').onPublish(
       const upcomingSessions = upcomingTimeslot.reduce((result, timeslot) =>
         timeslot.sessions.reduce((aggregatedSessions, current) => [...aggregatedSessions, ...current.items], []));
       const usersIdsSnapshot = await firestore().collection('featuredSessions').get();
-
+      
       upcomingSessions.forEach(async (upcomingSession, sessionIndex) => {
+        console.log("### SessionIndex "+sessionIndex);
+        console.log("### UpcomingSessions"+upcomingSession);
         const sessionInfoSnapshot = await firestore().collection('sessions').doc(upcomingSession).get();
         if (!sessionInfoSnapshot.exists) return;
 
@@ -109,7 +111,7 @@ const scheduleNotifications = functions.pubsub.topic('schedule-tick').onPublish(
 
         if (userIdsFeaturedSession.length) {
           console.log('###Line 114### Starts '+fromNow);
-          console.log("Session Index: "+sessionIndex+upcomingSession[sessionIndex]);
+          console.log("Session Index: "+sessionIndex+upcomingSessions[sessionIndex]);
           return sendPushNotificationToUsers(userIdsFeaturedSession, {
             data: {
               title: session.title,
