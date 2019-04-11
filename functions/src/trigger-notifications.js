@@ -7,18 +7,18 @@ const FORMAT = 'HH:mm';
 const sendPushNotificationToUsers = async (userIds, payload) => {
   console.log('sendPushNotificationToUsers user ids', userIds, 'with notification', payload);
   const tokensPromise = userIds.map(id => firestore().collection('notificationsUsers').doc(id).get());
-  console.log('# tokensPromise', tokensPromise);
+  // console.log('# tokensPromise', tokensPromise);
 
   const usersTokens = await Promise.all(tokensPromise);
-  console.log('# usersTokens', usersTokens);
+  // console.log('# usersTokens', usersTokens);
   const tokensToUsers = usersTokens.reduce((aggregator, userTokens) => {
     if (!userTokens.exists) return aggregator;
     const { tokens } = userTokens.data();
-    console.log('# tokens inner', tokens);
-    console.log('# aggregator inner', aggregator);
-    console.log('# userTokens inner', userTokens);
+    // console.log('# tokens inner', tokens);
+    // console.log('# aggregator inner', aggregator);
+    // console.log('# userTokens inner', userTokens);
     const toReturn = { ...aggregator, ...tokens };
-    console.log('# toReturn inner', toReturn);
+    // console.log('# toReturn inner', toReturn);
     return toReturn;
   }, {});
   console.log('# tokensToUsers', tokensToUsers);
@@ -27,7 +27,7 @@ const sendPushNotificationToUsers = async (userIds, payload) => {
 
   const tokensToRemove = {};
   const messagingResponse = await messaging().sendToDevice(tokens, payload);
-  console.log('# messagingResponse', messagingResponse);
+  // console.log('# messagingResponse', messagingResponse);
   messagingResponse.results.forEach((result, index) => {
     const error = result.error;
     if (error) {
@@ -43,7 +43,7 @@ const sendPushNotificationToUsers = async (userIds, payload) => {
   return "sent";
 };
 
-const triggerNotifications = functions.https.onRequest(async () => {
+const triggerNotifications = functions.pubsub.topic('schedule-tick').onPublish(async () => {
     const notificationsConfigPromise = firestore().collection('config').doc('notifications').get();
     const schedulePromise = firestore().collection('schedule').get();
 
@@ -59,9 +59,9 @@ const triggerNotifications = functions.https.onRequest(async () => {
       const upcomingTimeslot = schedule[todayDay].timeslots
         .filter(timeslot => {
           const timeslotTime = moment(`${timeslot.startTime}${notificationsConfig.timezone}`, `${FORMAT}Z`).subtract(10, 'minutes');
-          console.log("@@@ Filtering ", timeslotTime);
-          console.log("@@@ Filtering ", `${timeslot.startTime}${notificationsConfig.timezone}`);
-          console.log("@@@ isBetween ", beforeTime, afterTime, timeslotTime.isBetween(beforeTime, afterTime));
+          // console.log("@@@ Filtering ", timeslotTime);
+          // console.log("@@@ Filtering ", `${timeslot.startTime}${notificationsConfig.timezone}`);
+          // console.log("@@@ isBetween ", beforeTime, afterTime, timeslotTime.isBetween(beforeTime, afterTime));
           return timeslotTime.isBetween(beforeTime, afterTime);
         });
       const upcomingSessions = upcomingTimeslot.reduce((result, timeslot) =>
@@ -70,28 +70,28 @@ const triggerNotifications = functions.https.onRequest(async () => {
       const usersIdsSnapshot = await firestore().collection('featuredSessions').get();
       
       upcomingSessions.forEach(async (upcomingSession, sessionIndex) => {
-        console.log("### SessionIndex "+sessionIndex);
-        console.log("### UpcomingSessions "+upcomingSession);
+        // console.log("### SessionIndex "+sessionIndex);
+        // console.log("### UpcomingSessions "+upcomingSession);
         const sessionInfoSnapshot = await firestore().collection('sessions').doc(String(upcomingSession)).get();
-        console.log("### sessionInfoSnapshot");
+        // console.log("### sessionInfoSnapshot");
         if (!sessionInfoSnapshot.exists) return;
 
         const usersIds = usersIdsSnapshot.docs.reduce((acc, doc) => ({ ...acc, [doc.id]: doc.data() }), {});
 
-        console.log("### Line 101");
+        // console.log("### Line 101");
         const userIdsFeaturedSession = Object.keys(usersIds)
           .filter(userId => !!Object.keys(usersIds[userId])
             .filter(sessionId => (sessionId.toString() === upcomingSession.toString()))
             .length
           );
 
-        console.log("###")
+        // console.log("###")
         const session = sessionInfoSnapshot.data();
         const end = moment(`${upcomingTimeslot[0].startTime}${notificationsConfig.timezone}`, `${FORMAT}Z`);
         const fromNow = end.fromNow();
 
         if (userIdsFeaturedSession.length) {
-          console.log('### Sending push notification');
+          console.log('### Sending push notifications');
           sendPushNotificationToUsers(userIdsFeaturedSession, {
             data: {
               title: session.title,
@@ -104,16 +104,14 @@ const triggerNotifications = functions.https.onRequest(async () => {
 
         if (upcomingSessions.length) {
           console.log('Upcoming sessions', upcomingSessions);
-          res.status(200).send("Success - Upcoming sessions" + upcomingSessions);
         } else {
           console.log('There is no sessions right now');
-          res.status(200).send("Success - There is no sessions right now :)");
         }
       });
     } else {
       console.log(todayDay, 'was not found in the schedule')
-      res.status(200).send("Success - was not found in the schedule :)");
     }
+    // res.status(200).send("over");
   }
 );
 
