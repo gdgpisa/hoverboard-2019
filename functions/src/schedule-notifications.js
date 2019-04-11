@@ -13,6 +13,7 @@ const removeUserTokens = tokensToUsers => {
   }, {});
 
   const promises = Object.keys(userTokens).map(userId => {
+    console.log("Trying to obrain Users tokens");
     const ref = firestore().collection('notificationsUsers').doc(userId);
     console.log("### tokensToUsers "+tokensToUsers[token]);
     return firestore.runTransaction(transaction => transaction
@@ -83,35 +84,36 @@ const scheduleNotifications = functions.pubsub.topic('schedule-tick').onPublish(
       const upcomingTimeslot = schedule[todayDay].timeslots
         .filter(timeslot => {
           const timeslotTime = moment(`${timeslot.startTime}${notificationsConfig.timezone}`, `${FORMAT}Z`).subtract(10, 'minutes');
-          console.log("### Schedule Notifications effettuata");
           return timeslotTime.isBetween(beforeTime, afterTime);
         });
-      
       const upcomingSessions = upcomingTimeslot.reduce((result, timeslot) =>
-        timeslot.sessions.reduce((aggregatedSessions, current) => [...aggregatedSessions, ...current.items], []));
+        timeslot.sessions.reduce((aggregatedSessions, current) => [...aggregatedSessions, ...current.items], []), []);
+      console.log("### Upcoming sessions "+JSON.stringify(upcomingSessions));
       const usersIdsSnapshot = await firestore().collection('featuredSessions').get();
       
       upcomingSessions.forEach(async (upcomingSession, sessionIndex) => {
         console.log("### SessionIndex "+sessionIndex);
-        console.log("### UpcomingSessions"+upcomingSession);
+        console.log("### UpcomingSessions "+upcomingSession);
         const sessionInfoSnapshot = await firestore().collection('sessions').doc(upcomingSession).get();
+        sessionInfoSnapshot.then((r)=>{console.log(r)});
         if (!sessionInfoSnapshot.exists) return;
 
         const usersIds = usersIdsSnapshot.docs.reduce((acc, doc) => ({ ...acc, [doc.id]: doc.data() }), {});
 
+        console.log("### Line 101");
         const userIdsFeaturedSession = Object.keys(usersIds)
           .filter(userId => !!Object.keys(usersIds[userId])
             .filter(sessionId => (sessionId.toString() === upcomingSession.toString()))
             .length
           );
 
+        console.log("###")
         const session = sessionInfoSnapshot.data();
         const end = moment(`${upcomingTimeslot[0].startTime}${notificationsConfig.timezone}`, `${FORMAT}Z`);
         const fromNow = end.fromNow();
 
         if (userIdsFeaturedSession.length) {
-          console.log('###Line 114### Starts '+fromNow);
-          console.log("Session Index: "+sessionIndex+upcomingSessions[sessionIndex]);
+          console.log('### Sending push notification');
           return sendPushNotificationToUsers(userIdsFeaturedSession, {
             data: {
               title: session.title,
@@ -127,7 +129,7 @@ const scheduleNotifications = functions.pubsub.topic('schedule-tick').onPublish(
         } else {
           console.log('There is no sessions right now');
         }
-      });
+      }).catch((e)=>{console.error(e)});
     } else {
       console.log(todayDay, 'was not found in the schedule')
     }
