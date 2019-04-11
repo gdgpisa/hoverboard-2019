@@ -86,7 +86,9 @@ const scheduleNotifications = functions.pubsub.topic('schedule-tick').onPublish(
           const timeslotTime = moment(`${timeslot.startTime}${notificationsConfig.timezone}`, `${FORMAT}Z`).subtract(10, 'minutes');
           return timeslotTime.isBetween(beforeTime, afterTime);
         });
-
+      
+      console.log("### aggregatedSession"+aggregatedSessions);
+      console.log("### current"+current);
       const upcomingSessions = upcomingTimeslot.reduce((result, timeslot) =>
         timeslot.sessions.reduce((aggregatedSessions, current) => [...aggregatedSessions, ...current.items], []));
       const usersIdsSnapshot = await firestore().collection('featuredSessions').get();
