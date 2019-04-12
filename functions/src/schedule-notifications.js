@@ -13,26 +13,37 @@ const removeUserTokens = tokensToUsers => {
   }, {});
 
   const promises = Object.keys(userTokens).map(userId => {
-    const ref = firestore().collection('notificationsUsers').doc(userId);
+    
+    console.log("Trying to obrain Users tokens");
+    
+    const ref = firestore().collection('notificationsUsers').doc(String(userId));
+    
+    console.log("### tokensToUsers ");
 
-    return firestore.runTransaction(transaction => transaction
+    return firestore().runTransaction(transaction => transaction
       .get(ref)
       .then(doc => {
         if (!doc.exists) {
+          console.log("### Doc doesn't exists");
           return;
         }
 
         const val = doc.data();
+        console.log("### Val "+val)
         const newVal = Object.keys(val).reduce((acc, token) => {
-          if (tokensToUsers[token]) return acc;
-
+          if (tokensToUsers[token]){console.log("### "+tokensToUsers[token]); return acc;}
+          console.log("### not tokensToUsers ");
           return { ...acc, [token]: true };
         }, {});
 
+        console.log("### Transaction is going to set newVal");
         transaction.set(newVal);
+        console.log("### newVal "+newVal);
       })
     );
   });
+
+  console.log(promises);
 
   return Promise.all(promises);
 };
@@ -76,7 +87,6 @@ const scheduleNotifications = functions.pubsub.topic('schedule-tick').onPublish(
 
     const schedule = scheduleSnapshot.docs.reduce((acc, doc) => ({ ...acc, [doc.id]: doc.data() }), {});
     const todayDay = moment().utcOffset(notificationsConfig.timezone).format('YYYY-MM-DD');
-
     if (schedule[todayDay]) {
       const beforeTime = moment().subtract(3, 'minutes');
       const afterTime = moment().add(3, 'minutes');
@@ -86,28 +96,34 @@ const scheduleNotifications = functions.pubsub.topic('schedule-tick').onPublish(
           const timeslotTime = moment(`${timeslot.startTime}${notificationsConfig.timezone}`, `${FORMAT}Z`).subtract(10, 'minutes');
           return timeslotTime.isBetween(beforeTime, afterTime);
         });
-
       const upcomingSessions = upcomingTimeslot.reduce((result, timeslot) =>
-        timeslot.sessions.reduce((aggregatedSessions, current) => [...aggregatedSessions, ...current.items], []));
+        timeslot.sessions.reduce((aggregatedSessions, current) => [...aggregatedSessions, ...current.items], []), []);
+      console.log("### Upcoming sessions "+JSON.stringify(upcomingSessions));
       const usersIdsSnapshot = await firestore().collection('featuredSessions').get();
-
+      
       upcomingSessions.forEach(async (upcomingSession, sessionIndex) => {
-        const sessionInfoSnapshot = await firestore().collection('sessions').doc(upcomingSession).get();
+        console.log("### SessionIndex "+sessionIndex);
+        console.log("### UpcomingSessions "+upcomingSession);
+        const sessionInfoSnapshot = await firestore().collection('sessions').doc(String(upcomingSession)).get();
+        console.log("### sessionInfoSnapshot");
         if (!sessionInfoSnapshot.exists) return;
 
         const usersIds = usersIdsSnapshot.docs.reduce((acc, doc) => ({ ...acc, [doc.id]: doc.data() }), {});
 
+        console.log("### Line 101");
         const userIdsFeaturedSession = Object.keys(usersIds)
           .filter(userId => !!Object.keys(usersIds[userId])
             .filter(sessionId => (sessionId.toString() === upcomingSession.toString()))
             .length
           );
 
+        console.log("###")
         const session = sessionInfoSnapshot.data();
         const end = moment(`${upcomingTimeslot[0].startTime}${notificationsConfig.timezone}`, `${FORMAT}Z`);
         const fromNow = end.fromNow();
 
         if (userIdsFeaturedSession.length) {
+          console.log('### Sending push notification');
           return sendPushNotificationToUsers(userIdsFeaturedSession, {
             data: {
               title: session.title,

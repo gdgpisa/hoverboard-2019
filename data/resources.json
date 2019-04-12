@@ -29,6 +29,7 @@
   "faq": "/data/faq.md",
   "cod": "/data/cod.md",
   "locationSource": "/data/location.md",
+  "mapSource": "/data/map.md",
   "footer": {
     "blog": "Blog"
   },

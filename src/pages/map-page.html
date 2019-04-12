@@ -1,0 +1,69 @@
+<link rel="import" href="../../bower_components/polymer/polymer-element.html">
+<link rel="import" href="../elements/polymer-helmet.html">
+<link rel="import" href="../elements/hero-block.html">
+<link rel="import" href="../elements/footer-block.html">
+<link rel="import" href="../elements/md-content.html">
+<link rel="import" href="../../bower_components/plastic-image/plastic-image.html">
+
+<dom-module id="map-page">
+  <template>
+    <style>
+      :host {
+        display: block;
+      }
+      .image {
+        --iron-image-width: 80%;
+      }
+    </style>
+
+    <polymer-helmet
+      title="{$ heroSettings.map.title $} | {$ title $}"
+      description="{$ heroSettings.map.metaDescription $}"
+      active="[[active]]"
+    ></polymer-helmet>
+
+    <hero-block
+      background-image="{$ heroSettings.map.background.image $}"
+      background-color="{$ heroSettings.map.background.color $}"
+      font-color="{$ heroSettings.map.fontColor $}"
+      active="[[active]]"
+    >
+      <div class="hero-title highlight-font">{$ heroSettings.map.title $}</div>
+      <p class="hero-description">{$ heroSettings.map.description $}</p>
+    </hero-block>
+
+    <md-content md-source="[[source]]"></md-content>
+    <p align="center">
+      <a href="/images/maps/maps.pdf" target="_blank">
+              <plastic-image
+                        class="image"
+                        srcset="/images/maps/maps.png"
+                        lazy-load preload fade></plastic-image>
+            </a>
+    </p>
+
+    <footer-block></footer-block>
+  </template>
+
+  <script>
+
+    // eslint-disable-next-line no-undef
+    class MapPage extends Polymer.Element {
+      static get is() {
+        return 'map-page';
+      }
+
+      static get properties() {
+        return {
+          active: Boolean,
+          source: {
+            type: String,
+            value: '{$ mapSource $}',
+          },
+        };
+      }
+    }
+
+    window.customElements.define(MapPage.is, MapPage);
+  </script>
+</dom-module>

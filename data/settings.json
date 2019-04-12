@@ -55,6 +55,11 @@
       "label": "Location"
     },
     {
+      "route": "map",
+      "permalink": "/map/",
+      "label": "Map"
+    },
+    {
       "route": "faq",
       "permalink": "/faq/",
       "label": "FAQ"
@@ -128,6 +133,15 @@
       "title": "Location",
       "metaDescription": "Please find directions and address of the venue on this page",
       "description": "Please find directions and address of the venue on this page",
+      "background": {
+        "color": "#fff"
+      },
+      "fontColor": "#424242"
+    },
+    "map": {
+      "title": "Map",
+      "metaDescription": "Please find here a map of our venue",
+      "description": "Please find here a map of our venue",
       "background": {
         "color": "#fff"
       },
