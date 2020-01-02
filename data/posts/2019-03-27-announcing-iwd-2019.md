@@ -1,14 +1,14 @@
 We're happy to announce that on April 13th we'll be celebrating🎉🎉🎉     
 the **International Women's Day** 👩‍💻 and we would like that each of you participate.
 
-The event, also this year, will be @ [Polo Fibonacci](https://goo.gl/maps/MufkLT1jBft) and will take place during the [DevFest](https://devfest.gdgpisa.it).🥳 
+The event, also this year, will be @ [Polo Fibonacci](https://goo.gl/maps/MufkLT1jBft) and will take place during the [DevFest](https://2019.devfest.gdgpisa.it).🥳 
 
 ![iwd](/images/posts/iwd.png)
 
 ## Schedule
 
 * [**Diana Bernabei**](/speakers/diana_bernabei) (GDG Pisa 🇮🇹) - [How to give a talk - Come tenere un talk?](/schedule/2019-04-13?sessionId=214)
-* [**WTM Pisa**](https://gdgpisa.it/wtm) (GDG Pisa 🇮🇹) - [IWD Celebration](https://devfest.gdgpisa.it/schedule/2019-04-13?sessionId=100)
+* [**WTM Pisa**](https://gdgpisa.it/wtm) (GDG Pisa 🇮🇹) - [IWD Celebration](https://2019.devfest.gdgpisa.it/schedule/2019-04-13?sessionId=100)
 
 ![wtm](/images/wtm-logo.png)
 

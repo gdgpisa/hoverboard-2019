@@ -6,7 +6,7 @@
   <img src="https://i.imgur.com/2GySKdJ.png" alt="readme screenshot"/>
 </p>
 
-:zap: [Live Website](https://devfest.gdgpisa.it/)
+:zap: [Live Website](https://2019.devfest.gdgpisa.it/)
 🤝 based on [Project Hoverboard](https://github.com/gdg-x/hoverboard)
 
 ### Deploying
@@ -18,7 +18,7 @@ The following branches are deployed:
 | Branch | Destination | Status |
 | ------ | ----------- | ------ |
 | `master` | https://devfest-pisa19-debug.firebaseapp.com | [![Build Status](https://travis-ci.com/gdgpisa/hoverboard-2019.svg?branch=master)](https://travis-ci.com/gdgpisa/hoverboard-2019) |
-| `release` | https://devfest.gdgpisa.it | [![Build Status](https://travis-ci.com/gdgpisa/hoverboard-2019.svg?branch=release)](https://travis-ci.com/gdgpisa/hoverboard-2019) |
+| `release` | https://2019.devfest.gdgpisa.it | [![Build Status](https://travis-ci.com/gdgpisa/hoverboard-2019.svg?branch=release)](https://travis-ci.com/gdgpisa/hoverboard-2019) |
 
 
 
