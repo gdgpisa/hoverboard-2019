@@ -21,7 +21,7 @@
   },
   "dependencies": {
     "autotrack": "^2.4.1",
-    "grpc": "^1.19.0",
+    "grpc": "^1.24.9",
     "redux": "^3.7.2",
     "redux-thunk": "^2.2.0"
   },
